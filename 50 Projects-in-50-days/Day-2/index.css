@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #f6f7fb;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  color: grey;
+  z-index: 1;
+  transition: 0.3s ease-in;
+}
+.crossBarActive {
+  content: "";
+  background-color: #e0e0e0;
+  border: 1px solid #3798db;
+  width: 0%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transition: 0.3s ease-in;
+}
+.numberContainer {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+.btnContainer {
+  margin-top: 3em;
+}
+.crossBar {
+  content: "";
+  background-color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+}
+button {
+  font-size: 22px;
+  padding: 8px 32px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.previous {
+  background-color: #e0e0e0;
+  border: #e0e0e0;
+}
+.next {
+  background-color: #3798db;
+  border: #3798db;
+}
+.active {
+  border: 3px solid #3798db;
+}
