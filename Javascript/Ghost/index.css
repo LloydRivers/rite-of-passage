@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191a2e;
+}
+.ghost {
+  width: 100px;
+  height: 120px;
+  background-color: #fff;
+  margin: 25px;
+  border-radius: 100rem 100rem 0 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: ahaha 1s linear alternate infinite;
+}
+.ghost::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  box-shadow: 100px 0 0 white;
+}
+.ghost::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(50%);
+  border-radius: 0 0 100rem 100rem;
+  box-shadow: 20px 0 0 0 white, 40px 0 0 0 white, 60px 0 0 0 white,
+    80px 0 0 0 white;
+}
+
+.ghost-body {
+  width: 100%;
+  max-width: 50%;
+  height: 50px;
+}
+.ghost-eye {
+  width: 20px;
+  height: 20px;
+  background-color: #191a2e;
+  border-radius: 50%;
+  box-shadow: 30px 0 0 0 #191a2e;
+}
+
+.ghost-mount {
+  width: 100%;
+  max-width: 80%;
+  margin: 10px auto 0;
+  background-color: #191a2e;
+  height: 20px;
+  border-radius: 0 0 100rem 100rem;
+  position: relative;
+}
+.ghost-mount::before {
+  content: "";
+  position: absolute;
+  left: 30%;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+}
+
+@keyframes ahaha {
+  to {
+    transform: translateY(30%);
+  }
+}
