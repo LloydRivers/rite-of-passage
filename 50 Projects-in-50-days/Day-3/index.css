@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 100%;
+}
+.container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textContainer {
+  width: 70%;
+  margin: 3em;
+}
+.imageContainer {
+  width: 100%;
+}
+.backGround {
+  z-index: -1;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+ul {
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  color: white;
+  list-style: none;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  margin-left: 50px;
+}
+li {
+  margin-bottom: 3em;
+}
+.menu {
+  z-index: 1;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  background-color: pink;
+  border-radius: 50%;
+  top: -125px;
+  left: -125px;
+}
+.burger {
+  cursor: pointer;
+
+  height: 10px;
+  width: 50px;
+  background-color: black;
+
+  box-shadow: 0px 16px 0 0 black, 0px 32px 0 0 black;
+}
+.burgerContainer {
+  cursor: pointer;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  width: 50px;
+  height: 50px;
+}
+.cross {
+  cursor: pointer;
+  position: absolute;
+  background-color: black;
+  width: 50px;
+  height: 10px;
+  left: 50px;
+  top: 166px;
+  transform: rotate(45deg);
+}
+.cross::after {
+  content: "";
+  cursor: pointer;
+  position: absolute;
+  background-color: black;
+  width: 50px;
+  height: 10px;
+  left: 0px;
+  top: 0px;
+  transform: rotate(90deg);
+}
+.container {
+  transform-origin: top left;
+}
