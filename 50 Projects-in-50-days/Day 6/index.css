@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efedd6;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1000%;
+  color: #fff;
+}
+.content {
+  font-size: 35px;
+  text-align: center;
+  width: 350px;
+  height: 250px;
+  line-height: 250px;
+  background-color: #4682b4;
+  border-radius: 15px;
+  margin: 1em 0;
+}
