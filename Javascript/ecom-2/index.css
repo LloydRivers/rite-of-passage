@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* GLOBAL STYLES */
+.flex {
+  display: flex;
+}
+.flex-apart {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.padding {
+  padding: 20px;
+}
+.column {
+  flex-direction: column;
+}
+.justify {
+  justify-content: center;
+}
+.firstSection-Btn {
+  padding: 8px 16px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+/* GLOBAL STYLES */
+header {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style: none;
+}
+.search input {
+  padding: 7px 5px;
+  border: 1px solid #000;
+}
+li {
+  padding: 0px 10px;
+}
+.firstSection {
+  width: 100vw;
+  height: 400px;
+  background: rgb(202, 206, 224);
+  background: radial-gradient(
+    circle,
+    rgba(202, 206, 224, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+#slider a {
+  text-decoration: none;
+  color: #000;
+}
+.firstSection h1 {
+  font-size: 4em;
+}
+.firstSectionPara {
+  text-align: center;
+  width: 95%;
+  max-width: 700px;
+  font-size: 1.5em;
+}
+#slider {
+  gap: 15px;
+}
+.prod-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+#slide a {
+  display: block;
+  text-align: center;
+  margin: 6px 0px;
+}
+.burger {
+  background-color: #efefef;
+}
+.hide {
+  display: none;
+}
+.burger span {
+  margin: 10px;
+  height: 3px;
+  width: 35px;
+  background-color: #000;
+  display: block;
+}
+@media (max-width: 768px) {
+  #slider {
+    display: flex;
+    flex-direction: column;
+  }
+  .transform span:nth-child(2) {
+    width: 0px;
+    transition: 0.19s;
+  }
+  .firstSection h1 {
+    font-size: 2em;
+  }
+  .firstSectionPara {
+    text-align: center;
+    width: 75%;
+    max-width: 700px;
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+
+  .transform span:nth-child(1) {
+    position: relative;
+    top: 12px;
+    transform: rotate(-45deg);
+  }
+  .transform span:nth-child(3) {
+    transform: rotate(45deg);
+    position: relative;
+    top: -13px;
+  }
+  .header {
+    position: relative;
+  }
+  .hide {
+    display: block;
+  }
+  .onlyLargeScreens {
+    display: none;
+  }
+  .show * {
+    display: block;
+  }
+  .show {
+    border-top: 1px solid #000;
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    top: 77px;
+    left: 0;
+    right: 0;
+  }
+}

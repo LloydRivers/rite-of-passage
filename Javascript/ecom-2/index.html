@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header flex flex-apart align-center padding">
+        <div class="logo">
+          <h1>Boutique</h1>
+        </div>
+        <div
+          id="smlNavContainer"
+          class="header flex flex-apart align-center padding onlyLargeScreens"
+        >
+          <ul class="links flex">
+            <li>HOME</li>
+            <li>SHOP</li>
+            <li>ABOUT</li>
+          </ul>
+          <div class="search">
+            <input id="search" type="text" placeholder="Search..." />
+          </div>
+        </div>
+        <div id="burger" class="burger hide">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main class="flex">
+      <section>
+        <div class="firstSection flex align-center column justify">
+          <h1>Welcome to our Boutique</h1>
+          <p class="firstSectionPara">
+            Beyond helping you look your best, Boutique strives to make every
+            purchase a positive experience.
+          </p>
+          <button class="firstSection-Btn">Start Shopping...</button>
+        </div>
+        <div id="slider" class="flex align-center justify padding"></div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
