@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+fieldset {
+  border: none;
+  margin: 20px 0px;
+}
+input {
+  border: 1px solid grey;
+  padding: 7px 5px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
+}
+.formContainer {
+  margin: 100px auto;
+  max-width: 700px;
+  width: 95%;
+}
+.radios input {
+  display: none;
+}
+.radios label {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.radios input:checked + label::before {
+  background-color: black;
+}
+.radios input:checked + label {
+  color: #ff6f18;
+}
+
+.radios label::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid black;
+  display: block;
+  margin-right: 7px;
+}
+fieldset + input {
+  padding: 10px;
+  background-color: #ff6f18;
+  color: #fff;
+  border: none;
+}
+
+/* Global Values */
+
+/* Global Values */
