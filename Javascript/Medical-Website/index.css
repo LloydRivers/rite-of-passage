@@ -362,3 +362,26 @@ section .sectionP2 {
   font-size: 16px;
   transition: 0.3s linear;
 }
+.footer-wrapper {
+  display: flex;
+  background-color: var(--primary-Color);
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 30px;
+}
+.footer-wrapper ul {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.footer-wrapper ul li {
+  margin: 0;
+}
+.col1 {
+  text-align: center;
+}
+hr {
+  color: #fff;
+  border: 2px solid;
+}
