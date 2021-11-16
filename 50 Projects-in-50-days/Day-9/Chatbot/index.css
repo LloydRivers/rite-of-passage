@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@400;500&family=Zen+Antique+Soft&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d7dbe2;
+  padding: 5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+.just-centre {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+/* ^^^^ END OF GLOBAL VALUES ^^^^ */
+
+.wrapper {
+  background-color: #f5f7fb;
+  padding: 2em;
+}
+.navSectionContainer {
+  padding: 15px;
+}
+.navSectionContainer img {
+  height: 20px;
+  width: 20px;
+}
+.navMain li {
+  list-style: none;
+  color: #646464;
+  padding: 3px 10px;
+  font-size: 13px;
+}
+li.activeLi {
+  color: #56c6b7;
+  font-weight: 600;
+  border-bottom: 3px solid #56c6b7;
+}
+.navSrc {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.navMain img::nth-child(1) {
+  margin-left: 6px;
+}
+
+.search input,
+fieldset,
+.buttonContainer .btn {
+  color: #646464;
+  background-color: #fff;
+  border-radius: 15px;
+  border: none;
+  padding: 9px 20px;
+}
+.search img {
+  position: relative;
+  top: 5px;
+  width: 20px;
+}
+
+.profilePicture {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.profilePicture img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+.profilePicture img:nth-child(2) {
+  position: relative;
+  bottom: 10px;
+  right: 3px;
+}
+.profileRow {
+}
+.profileRow:nth-child(3) img {
+  position: relative;
+  bottom: 15px;
+}
+.onlineIcon {
+  background-color: #56c6b7;
+  border-radius: 100%;
+  height: 12px;
+  width: 12px;
+  position: relative;
+  left: 30px;
+  bottom: 8px;
+  border: 1px solid #fff;
+}
+.profiles {
+  width: 35%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 1.5em;
+}
+.profiles .profileRow {
+  margin-bottom: 10px;
+}
+.profileTextContainer {
+  padding-left: 15px;
+}
+.profileTextContainer h3 {
+  font-size: 16px;
+}
+.profileTextContainer h4 {
+  margin-top: 6px;
+  color: #646464;
+}
+.chat {
+  background-color: #fff;
+  display: block;
+  width: 60%;
+  padding: 30px 10px;
+}
+
+.messageAreaContainer h4 {
+  margin: 10px 0 0 20px;
+  color: #646464;
+  margin-bottom: 5px;
+  padding: 20px 50px;
+  background-color: #f5f7fb;
+
+  border-radius: 0px 20px 20px 0px;
+}
+
+.typeInAMessageContainer {
+  background-color: #f5f7fb;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.typeInAMessageContainer input {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+}
+.typeInAMessageContainer img {
+  width: 30px;
+}
+.paperclip {
+  margin-right: 18px;
+}

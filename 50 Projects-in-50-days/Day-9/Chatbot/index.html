@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navSectionContainer space-between flex">
+        <div class="chatBot">
+          <span>ChatBOT</span>
+        </div>
+        <nav class="navMain flex">
+          <li>HOME</li>
+          <li class="activeLi">CHAT</li>
+          <li>CONTACTS</li>
+          <li>SETTINGS</li>
+          <li>FAQS</li>
+          <li>T&C'S</li>
+
+          <img class="navSrc" src="/icons/search.png" alt="" />
+          <img src="/icons/bell.png" alt="" />
+        </nav>
+      </div>
+      <div class="searchWrapper flex space-between align-center">
+        <div class="search">
+          <fieldset>
+            <label for="searchIcon">
+              <img src="/icons/search.png" alt="" />
+            </label>
+            <input id="searchIcon" type="text" placeholder="SEARCH" />
+          </fieldset>
+        </div>
+        <div class="buttonContainer">
+          <button class="btn">CLEAR CHAT</button>
+          <button class="btn">MORE</button>
+        </div>
+      </div>
+      <div class="textBox-Container space-between flex">
+        <div class="profiles">
+          <div class="profileRow space-between flex">
+            <div class="profilePictureContainer">
+              <div class="profilePicture">
+                <img src="/icons/person2.jpg" alt="" />
+              </div>
+              <div class="onlineIcon"></div>
+            </div>
+            <div class="profileTextContainer">
+              <h3>John Doe</h3>
+              <h4>Hey there, you online later?</h4>
+            </div>
+            <div>
+              <span>09:00</span>
+            </div>
+          </div>
+          <div class="profileRow space-between flex">
+            <div class="profilePictureContainer">
+              <div class="profilePicture">
+                <img src="/icons/person1.jpg" alt="" />
+              </div>
+              <div class="onlineIcon"></div>
+            </div>
+            <div class="profileTextContainer">
+              <h3>Jessie Woo</h3>
+              <h4>Hey, I'm good, just chilling</h4>
+            </div>
+            <div>
+              <span>08:50</span>
+            </div>
+          </div>
+          <div class="profileRow space-between flex">
+            <div class="profilePictureContainer">
+              <div class="profilePicture">
+                <img src="/icons/person3.jpg" alt="" />
+              </div>
+              <div class="onlineIcon"></div>
+            </div>
+            <div class="profileTextContainer">
+              <h3>Satoshi Nakamoto</h3>
+              <h4>Hey dude, what's going on?</h4>
+            </div>
+            <div>
+              <span>08:30</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT HAND SIDE CHAT STarts here -->
+        <div class="chat">
+          <div class="messageArea">
+            <div class="profileRow flex">
+              <div class="profilePictureContainer">
+                <div class="profilePicture">
+                  <img src="/icons/person1.jpg" alt="" />
+                </div>
+                <div>
+                  <span>08:50</span>
+                </div>
+              </div>
+              <div class="messageAreaContainer">
+                <h4>Hey, I'm good, just chilling</h4>
+                <h4>Hey, I'm good, just chilling</h4>
+              </div>
+            </div>
+          </div>
+          <div class="sendMessage flex align-center">
+            <div
+              class="typeInAMessageContainer space-between flex align-center"
+            >
+              <div class="smileyAndInput flex align-center">
+                <img src="/icons/smiley.webp" alt="" />
+                <input placeholder="send a message..." type="text" />
+              </div>
+              <img
+                class="paperclip"
+                src="https://img.icons8.com/emoji/48/000000/paperclip-emoji.png"
+              />
+            </div>
+            <img
+              src="https://img.icons8.com/material-sharp/24/000000/filled-sent.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
