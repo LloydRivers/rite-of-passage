@@ -342,7 +342,8 @@ footer {
     min-height: 310px;
   }
   .grid-5,
-  .grid-3 {
+  .grid-3,
+  .grid-3-custom {
     grid-template-columns: 100%;
     gap: 1em 0;
   }
@@ -352,5 +353,8 @@ footer {
   }
   .hero-footer-cont-1 {
     text-align: center;
+  }
+  .footer-container .col:nth-child(1) {
+    grid-row-start: 5;
   }
 }
