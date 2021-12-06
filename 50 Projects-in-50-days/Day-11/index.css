@@ -356,5 +356,18 @@ footer {
   }
   .footer-container .col:nth-child(1) {
     grid-row-start: 5;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 1em;
+  }
+  .footer-container {
+    grid-template-columns: 50% 50%;
+  }
+  .hidden {
+    display: none !important;
+  }
+  .fa {
+    margin-top: 0;
   }
 }
