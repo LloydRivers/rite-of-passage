@@ -150,7 +150,7 @@ header {
   display: block;
 }
 .cyber-sales {
-  background-image: url("/images/sales1.jpg");
+  background-image: url("./images/sales1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
