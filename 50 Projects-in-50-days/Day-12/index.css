@@ -5,6 +5,9 @@
   padding: 0;
   margin: 0;
 }
+img {
+  display: block;
+}
 section {
   margin-bottom: 2em;
 }
@@ -52,6 +55,13 @@ li:hover::after {
 }
 .grid {
   display: grid;
+}
+.col-2 {
+  grid-template-columns: 48% 48%;
+}
+.col-2-custom {
+  grid-template-columns: 50% 50%;
+  background-color: #fff;
 }
 .col-3 {
   grid-template-columns: 32% 32% 32%;
@@ -107,7 +117,8 @@ a.btn:hover {
 .flex-text {
   color: var(--fleshPink);
 }
-.card img {
+.card img,
+.col-2-custom img {
   width: 100%;
   object-fit: cover;
 }
