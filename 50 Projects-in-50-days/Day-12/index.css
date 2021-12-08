@@ -151,3 +151,16 @@ a.btn:hover {
   height: 250px;
   overflow: hidden;
 }
+.prev,
+.next {
+  color: #fff;
+  background-color: var(--fleshPink);
+  font-size: 2em;
+  border: none;
+  border-radius: 12px;
+  padding: 9px 18px;
+}
+
+.btns-container {
+  margin-top: 2em;
+}
