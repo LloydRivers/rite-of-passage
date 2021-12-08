@@ -69,6 +69,9 @@ li:hover::after {
 .col-4 {
   grid-template-columns: 22% 22% 22% 22%;
 }
+.col-6 {
+  grid-template-columns: 20% 14% 14% 14% 14% 20%;
+}
 .flex {
   display: flex;
 }
@@ -163,4 +166,27 @@ a.btn:hover {
 
 .btns-container {
   margin-top: 2em;
+}
+.cust-col-text {
+  padding: 15px;
+}
+.cust-col-text p:nth-child(2) {
+  margin: 1em 0;
+}
+.ftr-col {
+  font-family: poppins;
+  font-size: 18px;
+}
+.ftr-col p {
+  margin: 1em 0;
+}
+.ftr-col img {
+  width: 100%;
+}
+footer {
+  background-color: var(--fleshPink);
+  padding: 2em 0;
+}
+.ftr-col:nth-child(1) {
+  padding: 4px 10px 4px 0;
 }
