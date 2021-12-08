@@ -118,7 +118,8 @@ a.btn:hover {
   color: var(--fleshPink);
 }
 .card img,
-.col-2-custom img {
+.col-2-custom img,
+#carousel img {
   width: 100%;
   object-fit: cover;
 }
@@ -145,4 +146,8 @@ a.btn:hover {
 .featured-icons-wrapper img {
   width: 100px;
   cursor: pointer;
+}
+.carousel-cards {
+  height: 250px;
+  overflow: hidden;
 }
