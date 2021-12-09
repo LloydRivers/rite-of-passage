@@ -26,6 +26,12 @@ body {
   max-width: 1180px;
   margin: 0 auto;
 }
+.flex-end {
+  justify-content: flex-end;
+}
+.space-around {
+  justify-content: space-around;
+}
 header {
   padding-bottom: 1em;
   position: sticky;
@@ -112,6 +118,9 @@ a.btn:hover {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+.hero-image img {
+  width: 100%;
 }
 
 .icons img:nth-child(2) {
@@ -210,7 +219,45 @@ input[type="submit"] {
   nav {
     display: none;
   }
+  .icons-wrapper {
+    justify-content: space-around;
+  }
   .icons img:nth-child(n + 2) {
     display: none;
+  }
+  .col-4 {
+    grid-template-columns: 32% 32% 32%;
+  }
+  #carousel .carousel-cards:nth-child(4),
+  .col-4 .card:nth-child(4) {
+    display: none;
+  }
+  .card-text h1 {
+    font-size: 14px;
+  }
+  /* PUT IN NOTES */
+  /* PUT IN NOTES */
+  /* PUT IN NOTES */
+  .card-text p,
+  .cust-col-text p:nth-child(2) {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: hidden;
+  }
+  /* PUT IN NOTES */
+  /* PUT IN NOTES */
+  /* PUT IN NOTES */
+  .col-6 {
+    grid-template-columns: 31% 31% 31%;
+  }
+}
+@media (max-width: 768px) {
+  .col-6 {
+    grid-template-columns: 45% 45%;
+  }
+  .ftr-col input {
+    width: 70%;
   }
 }
