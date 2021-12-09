@@ -37,6 +37,7 @@ header {
   position: sticky;
   top: 0;
   background-color: #fff;
+  z-index: 1;
 }
 ul {
   list-style: none;
@@ -259,5 +260,12 @@ input[type="submit"] {
   }
   .ftr-col input {
     width: 70%;
+  }
+  .icons-wrapper h1 {
+    font-size: 1.3em;
+  }
+  .col-2 {
+    grid-template-columns: 93%;
+    justify-content: center !important;
   }
 }
