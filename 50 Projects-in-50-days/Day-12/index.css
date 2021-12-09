@@ -276,4 +276,18 @@ input[type="submit"] {
     grid-template-columns: 93%;
     justify-content: center !important;
   }
+  .col-4 {
+    grid-template-columns: 47% 47%;
+  }
+
+  .col-3 {
+    grid-template-columns: 47% 47%;
+  }
+  .col-3 div:nth-child(3) {
+    display: none;
+  }
+  #carousel .carousel-cards:nth-child(4),
+  .col-4 .card:nth-child(4) {
+    display: block;
+  }
 }
