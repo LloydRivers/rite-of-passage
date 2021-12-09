@@ -206,3 +206,11 @@ input[type="submit"] {
   border-radius: 12px;
   padding: 9px 25px;
 }
+@media (max-width: 960px) {
+  nav {
+    display: none;
+  }
+  .icons img:nth-child(n + 2) {
+    display: none;
+  }
+}
