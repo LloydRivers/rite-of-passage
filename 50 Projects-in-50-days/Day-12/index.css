@@ -253,6 +253,14 @@ input[type="submit"] {
   .col-6 {
     grid-template-columns: 31% 31% 31%;
   }
+  .feature-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .feature-icons img:nth-child(n + 4) {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .col-6 {
