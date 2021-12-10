@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primaryColor: rgb(208, 48, 45);
+}
+.flex {
+  display: flex;
+}
+.justify-centre {
+  justify-content: center;
+}
+.align-centre {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.global-padding {
+  padding: 0 18px;
+}
+.col-2 {
+  grid-template-columns: 60% 36%;
+}
+.col2-custom {
+  grid-template-columns: 46% 46%;
+}
+.top-top-header {
+  background-color: #efefef;
+  padding: 10px 18px;
+}
+.top-top-header a,
+.top-top-header span {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  display: inline-block;
+}
+.top-top-header a::after {
+  content: "";
+  position: absolute;
+  transition: 0.7s ease-in-out;
+  width: 0%;
+  height: 2px;
+  display: block;
+  bottom: 0;
+  background-color: #000;
+}
+.top-top-header a:hover::after {
+  width: 100%;
+}
+.top-top-icons img {
+  width: 30px;
+}
+header {
+  padding: 30px 18px;
+}
+ul {
+  list-style: none;
+  margin-left: 2em;
+}
+li {
+  padding: 0px 5px;
+  cursor: pointer;
+}
+nav span {
+  font-family: "Bebas Neue", cursive, sans-serif;
+  font-size: 1.4em;
+}
+.red {
+  color: red;
+}
+.nav-search span {
+  display: block;
+}
+.nav-search input {
+  border: 1px solid rgba(0, 195, 255, 0.157);
+  padding: 7px 14px;
+  border-radius: 8px;
+}
