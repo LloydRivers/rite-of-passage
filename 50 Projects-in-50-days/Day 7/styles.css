@@ -39,8 +39,13 @@
   grid-template-columns: 46% 46%;
   gap: 10px;
 }
-.col-child img {
+.col-child img,
+.card-img img {
   width: 100%;
+}
+.col-4 {
+  grid-template-columns: repeat(4, 24%);
+  gap: 10px;
 }
 .col-5 {
   grid-template-columns: repeat(5, 1fr);
@@ -152,7 +157,8 @@ nav span {
   color: rgb(208, 48, 45);
   font-size: 20px;
 }
-.returns-text {
+.returns-text,
+.cards-section h1 {
   margin: 2em 0;
 }
 .returns-text a {
@@ -164,4 +170,30 @@ nav span {
 }
 .cart-text-p {
   line-height: 1.5;
+}
+hr {
+  margin-top: 2em;
+  opacity: 0.3;
+  border-color: rgb(241, 241, 241);
+}
+.product-detilas-text,
+.cards-section {
+  margin-top: 3em;
+}
+.product-detilas-text ul {
+  list-style-type: disc;
+  margin-left: 18px;
+}
+.product-detilas-text ul li {
+  margin: 1em 0;
+}
+.card span {
+  display: block;
+}
+.cards-section img {
+  cursor: pointer;
+}
+.card-text-left,
+.card-text-right {
+  padding: 10px;
 }
