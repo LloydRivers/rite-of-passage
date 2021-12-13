@@ -11,7 +11,7 @@
   display: grid;
 }
 .flex {
-  display: flex;
+  display: flex !important;
 }
 .justify-centre {
   justify-content: center;
@@ -139,8 +139,29 @@ nav span {
   width: 100%;
   padding: 9px 0;
   font-size: 1.4em;
+  cursor: pointer;
+}
+.add-to-cart button:hover {
+  opacity: 0.9;
 }
 .add-to-cart p {
   margin: 1em 0;
   font-size: 1.2em;
+}
+.add-to-cart .fa {
+  color: rgb(208, 48, 45);
+  font-size: 20px;
+}
+.returns-text {
+  margin: 2em 0;
+}
+.returns-text a {
+  display: block;
+  text-decoration: underline;
+}
+.returns-text a:nth-child(2) {
+  margin: 1.3em 0;
+}
+.cart-text-p {
+  line-height: 1.5;
 }
