@@ -51,6 +51,10 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
 }
+.col-5-custom {
+  grid-template-columns: repeat(4, 15%) 37%;
+  gap: 10px;
+}
 
 .top-top-header {
   background-color: #efefef;
@@ -58,13 +62,15 @@
 }
 .top-top-header a,
 .top-top-header span,
-.select-size-container a {
+.select-size-container a,
+.f-col ul a {
   text-decoration: none;
   color: #000;
   position: relative;
   display: inline-block;
 }
-.top-top-header a::after {
+.top-top-header a::after,
+.f-col ul a::after {
   content: "";
   position: absolute;
   transition: 0.7s ease-in-out;
@@ -74,7 +80,8 @@
   bottom: 0;
   background-color: #000;
 }
-.top-top-header a:hover::after {
+.top-top-header a:hover::after,
+.f-col ul a:hover::after {
   width: 100%;
 }
 .top-top-icons img {
@@ -91,7 +98,8 @@ li {
   padding: 0px 5px;
   cursor: pointer;
 }
-nav span {
+nav span,
+.f-col span {
   font-family: "Bebas Neue", cursive, sans-serif;
   font-size: 1.4em;
 }
@@ -230,4 +238,16 @@ hr {
   background-color: #000;
   padding: 1em 0;
   color: #fff;
+}
+footer {
+  padding: 1em;
+}
+.f-col ul {
+  margin: 0;
+}
+.f-col ul li {
+  margin: 5px 0;
+}
+.f-col p {
+  padding: 5px 50px;
 }
