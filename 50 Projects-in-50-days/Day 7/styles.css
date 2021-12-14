@@ -78,7 +78,7 @@
   width: 100%;
 }
 .top-top-icons img {
-  width: 30px;
+  width: 35px;
 }
 header {
   padding: 30px 18px;
@@ -153,7 +153,8 @@ nav span {
   margin: 1em 0;
   font-size: 1.2em;
 }
-.add-to-cart .fa {
+.add-to-cart .fa,
+.review-stars .fa {
   color: rgb(208, 48, 45);
   font-size: 20px;
 }
@@ -177,7 +178,9 @@ hr {
   border-color: rgb(241, 241, 241);
 }
 .product-detilas-text,
-.cards-section {
+.cards-section,
+.reviews,
+.reviews-container {
   margin-top: 3em;
 }
 .product-detilas-text ul {
@@ -187,7 +190,9 @@ hr {
 .product-detilas-text ul li {
   margin: 1em 0;
 }
-.card span {
+.card span,
+.review-details span,
+.review-text span {
   display: block;
 }
 .cards-section img {
@@ -196,4 +201,21 @@ hr {
 .card-text-left,
 .card-text-right {
   padding: 10px;
+}
+.reviews {
+  background-color: rgb(241, 241, 241);
+  height: 40px;
+}
+
+.review-details span:nth-child(2),
+.review-stars {
+  margin: 0.3em 0;
+}
+.review-text p {
+  width: 90%;
+  margin-top: 1em;
+}
+
+.review-text-more-text span {
+  margin: 0.5em 0;
 }
