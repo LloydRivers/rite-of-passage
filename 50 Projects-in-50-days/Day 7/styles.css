@@ -139,10 +139,11 @@ nav span {
 .add-to-cart {
   margin-top: 3em;
 }
-.add-to-cart button {
+.add-to-cart button,
+.signup-container button {
   background-color: rgb(208, 48, 45);
   width: 100%;
-  padding: 9px 0;
+  padding: 9px 18px;
   font-size: 1.4em;
   cursor: pointer;
 }
@@ -218,4 +219,15 @@ hr {
 
 .review-text-more-text span {
   margin: 0.5em 0;
+}
+.signup-container button {
+  width: auto;
+  color: #fff;
+  border: none;
+  margin-left: 1em;
+}
+.signup-container {
+  background-color: #000;
+  padding: 1em 0;
+  color: #fff;
 }
