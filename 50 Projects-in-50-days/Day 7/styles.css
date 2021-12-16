@@ -280,4 +280,29 @@ footer {
     grid-column-start: 1;
     grid-column-end: 3;
   }
+  .col-4 {
+    grid-template-columns: repeat(3, 32%);
+    gap: 10px;
+  }
+  .review-details {
+    display: none;
+  }
+  .review-text p {
+    width: 97%;
+  }
+}
+@media (max-width: 480px) {
+  .nav-search {
+    display: none;
+  }
+  .signup-container {
+    flex-wrap: wrap;
+  }
+  .signup-container button {
+    margin-top: 1em;
+  }
+  .col-4 {
+    grid-template-columns: repeat(2, 49%);
+    gap: 10px;
+  }
 }
