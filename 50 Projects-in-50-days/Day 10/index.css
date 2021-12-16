@@ -319,3 +319,11 @@ ul li:hover::after {
 .second-card-container span {
   color: rgb(98, 92, 92);
 }
+@media (max-width: 829px) {
+  .hero-text h1 {
+    font-size: 70px;
+  }
+  .card-section {
+    display: none;
+  }
+}
