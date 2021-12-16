@@ -251,3 +251,22 @@ footer {
 .f-col p {
   padding: 5px 50px;
 }
+
+@media (max-width: 768px) {
+  .top-top-icons img,
+  .top-top-icons span {
+    display: none;
+  }
+  .col-2 {
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+  .col2-custom {
+    grid-template-columns: 49% 49%;
+  }
+  .f-col p {
+    padding: 5px 30px;
+  }
+}
+@media (max-width: 600px) {
+}
