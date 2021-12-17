@@ -349,6 +349,7 @@ ul li:hover::after {
     display: none;
   }
   .podcasting {
+    margin-top: 20px;
     height: 350px;
   }
   .second-card-container,
