@@ -327,3 +327,38 @@ ul li:hover::after {
     display: none;
   }
 }
+@media (max-width: 733px) {
+  .hero-wrapper ul {
+    display: none;
+  }
+  .hero-wrapper nav {
+    padding: 0 1.4em;
+  }
+  .play-timeline::after {
+    width: 240px;
+  }
+  .grid-2-column {
+    grid-template-columns: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .hero-text h2 {
+    display: none;
+  }
+  .audio-player-contaner {
+    display: none;
+  }
+  .podcasting {
+    height: 350px;
+  }
+  .second-card-container,
+  .second-card-headers {
+    flex-wrap: wrap;
+  }
+  .card-container-size .card {
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 0px 9px 0px rgb(199 197 197);
+    margin: 20px auto;
+  }
+}
