@@ -1,0 +1,43 @@
+.top-top {
+  background-color: #fff;
+  height: 50px;
+}
+.top-top p {
+  color: var(--darkPink);
+  font-weight: bold;
+}
+.logo {
+  font-size: 2em;
+}
+nav {
+  background-color: var(--darkPink);
+  padding: 0.5em 6em;
+}
+ul {
+  padding: 1.1em 0;
+}
+ul li {
+  margin: 0 10px;
+}
+ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 2px;
+  width: 0%;
+  bottom: -10px;
+  left: 0;
+  transition: 0.3s ease-in;
+}
+ul li a:hover:after {
+  width: 100%;
+}
+.cart-icons img {
+  width: 30px;
+  height: 30px;
+  filter: invert(100%) sepia(100%) saturate(8%) hue-rotate(137deg)
+    brightness(100%) contrast(105%);
+}
+.cart-icons button {
+  background-color: transparent;
+}

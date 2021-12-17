@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --darkPink: rgb(202, 175, 168);
+  --black: rgb(51, 48, 41);
+}
+.global-width {
+  width: 95%;
+  max-width: 1180px;
+}
+.text-white {
+  color: #fff;
+}
+.py {
+  padding: 20px 0px;
+}
+.px {
+  padding: 0px 20px;
+}
+.p {
+  padding: 20px;
+}
+.my {
+  margin-top: 20px 0px;
+}
+.mx {
+  margin-bottom: 0px 20px;
+}
+.m {
+  margin: 20px;
+}
+.flex {
+  display: flex;
+}
+.justify-centre {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.text-align-centre {
+  text-align: center;
+}
+.grid {
+  display: grid;
+}
+.col-2 {
+  grid-template-columns: repeat(2, 49%);
+}
+.col-3 {
+  grid-template-columns: repeat(3, 33%);
+}
+.col-4 {
+  grid-template-columns: repeat(4, 24%);
+}
+.col-5 {
+  grid-template-columns: repeat(5, 19%);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+button {
+  border: none;
+}
