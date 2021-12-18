@@ -145,3 +145,29 @@ ul li a:hover:after {
 .grid-container {
   position: relative;
 }
+.marle {
+  background-image: url(./imgs/marle.jpg);
+  height: 400px;
+  background-position: center;
+  margin: 5em 0;
+}
+.marle span {
+  font-size: 3em;
+}
+
+.home-grown-text h1 {
+  font-size: 2.1em;
+}
+.home-grown-text p {
+  width: 75%;
+  margin: 1em 0;
+  color: #bbb7b2;
+  font-size: 1.1em;
+}
+.home-grown-text button {
+  background-color: #333029;
+  cursor: pointer;
+  padding: 9px 20px;
+  width: 30%;
+  font-size: 1em;
+}
