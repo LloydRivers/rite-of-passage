@@ -10,6 +10,10 @@
 .global-width {
   width: 95%;
   max-width: 1180px;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
 }
 .text-white {
   color: #fff;
@@ -23,6 +27,9 @@
 .p {
   padding: 20px;
 }
+.pb {
+  padding-bottom: 1em;
+}
 .my {
   margin-top: 20px 0px;
 }
@@ -34,6 +41,12 @@
 }
 .flex {
   display: flex;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.column {
+  flex-direction: column;
 }
 .justify-centre {
   justify-content: center;

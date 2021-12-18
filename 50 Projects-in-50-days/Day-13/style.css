@@ -1,17 +1,21 @@
 .top-top {
   background-color: #fff;
-  height: 50px;
 }
 .top-top p {
   color: var(--darkPink);
   font-weight: bold;
 }
 .logo {
+  position: absolute;
+  left: 25px;
+  top: 0px;
   font-size: 2em;
 }
+
 nav {
   background-color: var(--darkPink);
-  padding: 0.5em 6em;
+  padding: 1em 6em;
+  position: relative;
 }
 ul {
   padding: 1.1em 0;
@@ -40,4 +44,104 @@ ul li a:hover:after {
 }
 .cart-icons button {
   background-color: transparent;
+}
+.hero {
+  height: 500px;
+  background-image: url(/imgs/hero.jpg);
+}
+.hero-text {
+  margin: 0 0 4em 4em;
+}
+.hero-text h1 {
+  font-size: 4em;
+  text-shadow: 2px 2px #292828;
+}
+.hero button {
+  cursor: pointer;
+  background-color: #fff;
+  color: rgba(32, 32, 32, 0.575);
+  padding: 8px 3em;
+}
+.below-hero {
+  background-color: #fdf9f5;
+  padding: 3em 1.5em;
+}
+.below-hero p {
+  font-size: 1.4em;
+  color: rgba(0, 0, 0, 0.575);
+}
+.four-col-grid {
+  background-color: var(--darkPink);
+  padding: 6em 0;
+}
+.card-img {
+  position: relative;
+  padding-bottom: 400px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s ease-in-out;
+}
+.card-img img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.card-header-text h3 {
+  font-size: 2em;
+}
+
+.card-header-text span {
+  display: block;
+  font-size: 1.4em;
+}
+.card-text h3 {
+  font-weight: bold;
+}
+.card-text,
+.card-buttons {
+  margin-top: 1em;
+}
+.card-text span:nth-child(2) {
+  margin: 8px;
+}
+.card-text span {
+  display: block;
+}
+.card-buttons button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+.card-buttons button:nth-child(2) {
+  margin: 0 5px;
+}
+
+.slide-buttons button {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background-color: var(--darkPink);
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+}
+.slide-buttons {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.grid-container {
+  position: relative;
 }

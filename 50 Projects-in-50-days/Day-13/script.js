@@ -1,12 +1,13 @@
 let logoString = "hebe.";
-   let i = 0;
-
+   let index = 0;
+   let totalLength= 5;
 function printText(){
+    
    let logo = document.getElementById("logo");
    let count = logoString.length;
-   if(i < count){
-       logo.innerHTML += logoString.charAt(i);
-       i++; 
+   if(index < count){
+       logo.innerHTML += logoString.charAt(index);
+       index++; 
 }
 
 setTimeout(printText, 500)
