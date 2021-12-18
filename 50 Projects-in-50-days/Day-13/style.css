@@ -47,7 +47,7 @@ ul li a:hover:after {
 }
 .hero {
   height: 500px;
-  background-image: url(/imgs/hero.jpg);
+  background-image: url(./imgs/hero.jpg);
 }
 .hero-text {
   margin: 0 0 4em 4em;
