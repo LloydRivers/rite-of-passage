@@ -47,4 +47,12 @@ closeModal.addEventListener("click", function(){
    rewardsContainer.style.display = "none"
 })
 
-
+let btns = document.querySelectorAll(".card-btn");
+btns.forEach(btn=>{
+   btn.addEventListener("click", function(){
+     console.log(btn.style.border);
+     if(!btn.style.border) btn.style.border = "1px solid black";
+     else btn.style.border = "";
+      
+   })
+})
