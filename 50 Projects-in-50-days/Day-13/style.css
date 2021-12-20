@@ -274,7 +274,7 @@ ul li a:hover:after {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 .selfie-head-text {
-  margin: 2.5em 0;
+  margin: 2em 0;
 }
 .selfie-head-text span {
   font-family: "Poppins", sans-serif;
@@ -283,6 +283,7 @@ ul li a:hover:after {
 .selfie-container img {
   height: 350px;
   object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 .selfie {
   background-color: var(--darkPink);
