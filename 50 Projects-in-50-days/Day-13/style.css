@@ -36,6 +36,19 @@ ul li a::after {
 ul li a:hover:after {
   width: 100%;
 }
+
+/* HIDDEN NAV 1 */
+.nav-hidden-1 {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 86px;
+  left: 0;
+  height: 450px;
+  background-color: var(--darkPink);
+  display: none;
+}
+/* HIDDEN NAV 1 */
 .cart-icons img {
   width: 30px;
   height: 30px;
@@ -48,9 +61,31 @@ ul li a:hover:after {
 .hero {
   height: 500px;
   background-image: url(./imgs/hero.jpg);
+  position: relative;
+}
+
+.rewards {
+  position: absolute;
+  font-size: 1.2em;
+  top: 50%;
+  right: -102px;
+  transform: rotate(-90deg);
+  background-color: #000 !important;
+  color: #a79787 !important;
+  border: none;
+  padding: 9px 20px;
+}
+.rewards-text button {
+  font-size: 1.2em;
+  background-color: #000 !important;
+  padding: 9px 20px;
+  color: #fff !important;
 }
 .hero-text {
   margin: 0 0 4em 4em;
+}
+.rewards-text span {
+  margin-top: 1em;
 }
 .hero-text h1 {
   font-size: 4em;
@@ -96,6 +131,33 @@ ul li a:hover:after {
 }
 .card-header-text h3 {
   font-size: 2em;
+}
+.close-modal {
+  position: absolute;
+  font-size: 2em;
+  top: 0px;
+  right: 15px;
+  cursor: pointer;
+}
+.rewards-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+
+  background-image: url("https://images.unsplash.com/photo-1547754980-3df97fed72a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+}
+.rewards-text {
+  position: relative;
+  height: 500px;
+}
+.rewards-text span {
+  display: block;
 }
 
 .card-header-text span {

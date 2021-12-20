@@ -25,5 +25,26 @@ setTimeout(printText, 500)
 }
 printText();
 
+let show = document.getElementById("show");
+let navHide = document.getElementById("nav-hidden-1");
+show.addEventListener("mouseenter", function(){
+   console.log("Mouse Enter Called")
+   document.getElementById("nav-hidden-1").style.display = "block"
+})
+show.addEventListener("mouseleave", function(){
+   console.log('Mouse Leave Called');
+   document.getElementById("nav-hidden-1").style.display = "none"
+})
+
+let rewards = document.getElementById("rewards")
+let rewardsContainer = document.querySelector(".rewards-container")
+let closeModal = document.getElementById("close-modal");
+
+rewards.addEventListener("click", function(){
+   rewardsContainer.style.display = "block"
+})
+closeModal.addEventListener("click", function(){
+   rewardsContainer.style.display = "none"
+})
 
 
