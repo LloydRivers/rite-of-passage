@@ -296,3 +296,35 @@ ul li a:hover:after {
   margin: 1em 0;
   font-family: Poppins;
 }
+footer {
+  background-color: var(--darkPink);
+}
+.footer-container {
+  height: 100%;
+  border: 3px solid red;
+}
+.footer-container span:nth-child(1) {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 2em;
+}
+.copyright,
+.footer-container input {
+  margin-bottom: 2em;
+}
+.footer-container input {
+  border: none;
+  width: 300px;
+  background-color: transparent;
+  font-size: 1.3em;
+  position: relative;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+.footer-container p {
+  width: 50%;
+  margin: 2em;
+}
