@@ -83,6 +83,7 @@ img {
 }
 .col-5-custom {
   grid-template-columns: repeat(5, 20%);
+  gap: 25px;
 }
 li {
   list-style: none;
