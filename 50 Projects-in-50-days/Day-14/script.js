@@ -49,8 +49,3 @@ function filterd() {
 
   tBody.innerHTML = string;
 }
-
-//We'll need an evetnnt listener for keypress
-//we need to store data in a global array
-//we need to fetch the input field data
-//check usig includes if that text exists in name property fo the global array
