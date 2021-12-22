@@ -85,7 +85,7 @@ ul li a:hover:after {
   padding: 9px 20px;
 }
 .rewards-text button {
-  font-size: 1.2em;
+  font-size: 1.6em;
   background-color: #000 !important;
   padding: 9px 20px;
   color: #fff !important;
@@ -94,7 +94,10 @@ ul li a:hover:after {
   margin: 0 0 4em 4em;
 }
 .rewards-text span {
+  font-size: 1.4em;
   margin-top: 1em;
+  color: #fff;
+  text-shadow: 2px 2px #7c6e6e;
 }
 .hero-text h1 {
   font-size: 4em;
@@ -178,7 +181,7 @@ ul li a:hover:after {
 }
 .card-text,
 .card-buttons,
-.footer-container {
+.footer {
   margin-top: 1em;
 }
 .card-text span:nth-child(2) {

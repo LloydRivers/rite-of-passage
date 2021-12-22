@@ -66,10 +66,12 @@ function closeNav() {
 }
 // SIDE NAV
 function closeSearch() {
-  document.getElementById("hiddenSearch").style.width = "0%";
+  document.getElementById("hiddenSearch").style.width = "0";
+  document.querySelector(".closeSearch").style.display = "none";
 }
 
 function openSearch() {
   console.log("button click");
   document.getElementById("hiddenSearch").style.width = "100%";
+  document.querySelector(".closeSearch").style.display = "block";
 }
