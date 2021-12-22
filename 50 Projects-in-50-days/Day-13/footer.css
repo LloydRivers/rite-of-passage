@@ -1,4 +1,3 @@
-/* FOOTER */
 .footer {
   width: 100%;
   background: var(--darkPink);
@@ -102,15 +101,11 @@ li i {
   text-align: center;
 }
 
-/* for tablet mode view */
-
 @media screen and (max-width: 1275px) {
   .footer-items {
     width: 50%;
   }
 }
-
-/* for mobile screen view */
 
 @media screen and (max-width: 660px) {
   .footer-items {
