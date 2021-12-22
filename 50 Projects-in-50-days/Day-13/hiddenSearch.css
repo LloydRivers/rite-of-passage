@@ -12,14 +12,24 @@
   padding-top: 60px; /* Place content 60px from the top */
   /* transition: 0.5s; */
 }
+
+.inputContainer img {
+  position: relative;
+  right: 50px;
+  width: 30px;
+  top: 7px;
+  filter: invert(99%) sepia(0%) saturate(21%) hue-rotate(12deg) brightness(105%)
+    contrast(100%);
+}
+.input-search {
+  margin: 0 auto;
+  padding: 5em;
+}
 .hiddenSearch input {
-  margin: 10em auto;
   padding: 10px;
   border: 2px solid white;
   border-radius: 8px;
-
   font-size: 25px;
-  display: block;
   transition: 0.3s;
   background-color: transparent;
 }
