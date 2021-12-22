@@ -1,0 +1,36 @@
+.hiddenSearch {
+  width: 100%;
+  height: 100%;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: var(--darkPink); /* Black*/
+  /* overflow-x: hidden;  */
+  /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  /* transition: 0.5s; */
+}
+.hiddenSearch input {
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  background-color: transparent;
+}
+::placeholder {
+  text-align: left;
+  color: #fff;
+}
+
+.hiddenSearch .closeSearch {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}

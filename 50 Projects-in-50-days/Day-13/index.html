@@ -7,9 +7,16 @@
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="sideNav.css" />
+    <link rel="stylesheet" href="hiddenSearch.css" />
     <title>Boutique</title>
   </head>
   <body>
+    <div id="hiddenSearch" class="hiddenSearch">
+      <a href="javascript:void(0)" class="closeSearch" onclick="closeSearch()"
+        >&times;</a
+      >
+      <input type="text" class="input" placeholder="Search our store" />
+    </div>
     <header>
       <!-- HIDDEN NAV BAR -->
       <div id="mySidenav" class="sidenav">
@@ -78,7 +85,12 @@
             <img src="./imgs/2.png" alt="" />
           </button>
           <button>
-            <img id="cart-open" src="./imgs/3.png" alt="" />
+            <img
+              onclick="openSearch()"
+              id="cart-open"
+              src="./imgs/3.png"
+              alt=""
+            />
           </button>
         </div>
       </nav>

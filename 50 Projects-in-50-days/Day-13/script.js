@@ -65,3 +65,11 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 // SIDE NAV
+
+function openSearch() {
+  console.log("button click");
+  document.getElementById("hiddenSearch").style.width = "100%";
+}
+function closeSearch() {
+  document.getElementById("hiddenSearch").style.width = "0%";
+}
