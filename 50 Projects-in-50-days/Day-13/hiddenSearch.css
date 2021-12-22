@@ -1,5 +1,5 @@
 .hiddenSearch {
-  width: 100%;
+  width: 0%;
   height: 100%;
   /* 0 width - change this with JavaScript */
   position: fixed;
@@ -13,9 +13,10 @@
   /* transition: 0.5s; */
 }
 .hiddenSearch input {
-  margin: 0 auto;
+  margin: 10em auto;
   padding: 10px;
-  border: none;
+  border: 2px solid white;
+  border-radius: 8px;
 
   font-size: 25px;
   display: block;
