@@ -65,27 +65,7 @@ ul li a:hover:after {
 }
 
 /* CART CLICK */
-.cart-slider-container {
-  border: 1px solid red;
-  background-color: var(--darkPink);
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  height: 100vh;
-  right: 0;
-  color: #000;
-}
-.cart-slider span {
-  margin-top: 3em;
-  font-size: 1.1em;
-  padding: 1em;
-  display: block;
-}
-.close-cart-slider {
-  position: relative;
-  top: -30px;
-  right: 0px;
-}
+
 /* CART CLICK */
 .hero {
   height: 500px;

@@ -53,3 +53,14 @@ btns.forEach((btn) => {
     else btn.style.border = "";
   });
 });
+
+// SIDE NAV
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+// SIDE NAV

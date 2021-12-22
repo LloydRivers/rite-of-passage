@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="sideNav.css" />
     <title>Boutique</title>
   </head>
   <body>
-    <!-- <div class="cart-slider-container">
-      <div class="cart-slider">
-        <span class="close-cart-slider" id="close-cart-slider">X</span>
-        <span>Your cart is currently empty.</span>
-        <span>Continue browsing <a href="">here.</a></span>
-      </div>
-    </div> -->
     <header>
+      <!-- HIDDEN NAV BAR -->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <!-- HIDDEN NAV BAR -->
       <div class="top-top text-align-centre py">
         <p>
           $6 EXPRESS COURIER. FREE SHIPPING FOR ORDERS $200+. GIFTED HEBE TOTE
@@ -68,10 +74,9 @@
           </div>
         </div>
 
-        <!-- /* HIDDEN NAV 1 */ -->
         <div class="cart-icons">
           <img src="./imgs/1.png" alt="" />
-          <button>
+          <button onclick="openNav()">
             <img src="./imgs/2.png" alt="" />
           </button>
           <button>
