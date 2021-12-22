@@ -53,7 +53,7 @@ btns.forEach((btn) => {
     else btn.style.border = "";
   });
 });
-
+document.querySelector(".closeSearch").style.display = "none";
 // SIDE NAV
 /* Set the width of the side navigation to 250px */
 function openNav() {
