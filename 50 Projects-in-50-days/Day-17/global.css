@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue: #1c68b7;
+  --grey: #434d56;
+}
+
+.global-width {
+  width: 95%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.justify-centre {
+  justify-content: center;
+}
+.align-centre {
+  align-items: center;
+}
+.grid {
+  display: grid;
+}
+.col-2 {
+  grid-template-columns: repeat(2, 48%);
+}
+.col-3 {
+  grid-template-columns: repeat(3, 32%);
+}
+.col-4 {
+  grid-template-columns: repeat(4, 24%);
+}
+.col-5 {
+  grid-template-columns: repeat(5, 19%);
+}
