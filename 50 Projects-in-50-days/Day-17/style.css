@@ -10,23 +10,38 @@ header {
   margin-right: 6px;
 }
 ul img,
-.nav-search img {
+.nav-search-container img {
   width: 35px;
   filter: invert(27%) sepia(8%) saturate(898%) hue-rotate(167deg)
     brightness(96%) contrast(87%);
 }
 
-.nav-search {
+.nav-search-container {
   flex-grow: 1;
+
+  border: 3px solid red;
 }
-.nav-search input {
-  width: 45%;
+.nav-search-container img {
+  position: absolute;
+  right: 400px;
+  width: 25px;
+  top: 8px;
+}
+
+.nav-search-container input {
+  width: 55%;
   display: block;
   margin-left: auto;
+  padding: 10px 0px 10px 50px;
+  font-size: 20px;
+}
+.nav-search {
+  position: relative;
 }
 ul {
   list-style: none;
 }
 ul li {
   margin: 0 5px;
+  font-size: 20px;
 }
