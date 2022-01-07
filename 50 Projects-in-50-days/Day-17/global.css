@@ -8,6 +8,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+header {
+  background-color: #fff;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
 :root {
   --blue: #1c68b7;
   --grey: #434d56;
@@ -27,6 +33,9 @@ body {
 .justify-centre {
   justify-content: center;
 }
+.flex-column {
+  flex-direction: column;
+}
 .align-centre {
   align-items: center;
 }
@@ -44,4 +53,24 @@ body {
 }
 .col-5 {
   grid-template-columns: repeat(5, 19%);
+}
+.btn-global {
+  border-radius: 10px;
+  border: none;
+  padding: 12px 3em;
+  opacity: 0.9;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+}
+.btn-global:hover {
+  opacity: 1;
+}
+.btn-blue {
+  background-color: var(--blue);
+  color: #fff;
+}
+.btn-white {
+  border: 2px solid var(--blue);
+  color: var(--blue);
 }
