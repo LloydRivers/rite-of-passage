@@ -143,8 +143,17 @@ ul li:nth-child(1) {
   width: 30px;
   height: 30px;
 }
+.collection-header-text p {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+.top-collection-span {
+  color: var(--blue);
+}
 .col-3-column {
-  padding: 0 3em;
+  padding: 0 2em;
+
+  border: 2px solid rgb(0, 0, 0);
 }
 .col-3-column span {
   font-weight: 500;
@@ -161,5 +170,5 @@ ul li:nth-child(1) {
   color: var(--grey);
 }
 .collections-price span {
-  color: var(--green);
+  color: var(--blue);
 }
