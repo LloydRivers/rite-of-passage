@@ -17,3 +17,4 @@ These are the projects I made, pair programming with a friend.
 | 13  |           Day 13: Boutique           |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-13/index.html) |
 | 14  |          Day 14: Fetch API           |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-14/index.html) |
 | 15  |           Day 15: Natours            | [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-15/starter/index.html) |
+| 17  |           Day 17: OpenSea            |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-17/index.html) |
