@@ -17,6 +17,7 @@ header {
 :root {
   --blue: #1c68b7;
   --grey: #434d56;
+  --green: #62d499;
 }
 
 .global-width {
@@ -33,6 +34,9 @@ header {
 .justify-centre {
   justify-content: center;
 }
+.text-align-centre {
+  text-align: center;
+}
 .flex-column {
   flex-direction: column;
 }
@@ -47,6 +51,7 @@ header {
 }
 .col-3 {
   grid-template-columns: repeat(3, 32%);
+  border: 3px solid red;
 }
 .col-4 {
   grid-template-columns: repeat(4, 24%);
