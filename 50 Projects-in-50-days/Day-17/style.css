@@ -52,13 +52,59 @@ ul li:nth-child(1) {
   margin-left: 37px;
 }
 /* HERO SECTION START */
+
 .hero-section {
+  position: relative;
   background-image: url("https://images.unsplash.com/photo-1533109721025-d1ae7ee7c1e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bXVsdGklMjBjb2xvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 500px;
   padding: 3em 0;
+}
+
+.over-lay-z-index {
+  position: relative;
+  z-index: 2;
+}
+.header-overlay {
+  background-image: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 12%,
+    rgba(255, 255, 255, 0.26934523809523814) 96%
+  );
+  backdrop-filter: blur(0.5rem);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.create-btn {
+  margin: 0 0 0 20px;
+}
+
+.hero-left-col h1 {
+  font-size: 3em;
+  color: #000;
+}
+
+.hero-left-col p {
+  color: #000;
+  font-size: 1.4em;
+}
+
+.hero-left-col span {
+  display: block;
+  color: var(--blue);
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+.hero-left-col p {
+  margin: 2em 0;
 }
 
 .column-div-wrapper {
@@ -69,7 +115,9 @@ ul li:nth-child(1) {
 }
 .column-div img {
   width: 100%;
+  height: 425px;
 }
+
 .div-icons-wrapper {
   padding: 10px;
 }

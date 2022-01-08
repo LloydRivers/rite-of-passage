@@ -10,7 +10,7 @@ body {
 }
 header {
   background-color: #fff;
-  z-index: 1;
+  z-index: 10;
   position: sticky;
   top: 0;
 }
@@ -53,6 +53,10 @@ header {
 }
 .col-5 {
   grid-template-columns: repeat(5, 19%);
+}
+.hero-section img,
+nav li {
+  cursor: pointer;
 }
 .btn-global {
   border-radius: 10px;
