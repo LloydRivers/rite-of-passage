@@ -14,6 +14,9 @@ header {
   position: sticky;
   top: 0;
 }
+.global-header-text {
+  margin-bottom: 5em;
+}
 section {
   margin: 0 0 6em 0;
 }
@@ -30,6 +33,9 @@ section {
 }
 .flex {
   display: flex;
+}
+.flex-column {
+  flex-direction: column;
 }
 .space-between {
   justify-content: space-between;
@@ -54,7 +60,6 @@ section {
 }
 .col-3 {
   grid-template-columns: repeat(3, 32%);
-  border: 3px solid red;
 }
 .col-4 {
   grid-template-columns: repeat(4, 24%);

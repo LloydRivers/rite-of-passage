@@ -5,11 +5,53 @@
   margin: auto;
 }
 .slide-text {
-  background-color: #351837;
   color: #fff;
   text-align: center;
   padding: 15px;
+  height: 200px;
+  position: relative;
 }
+.slide-text button {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slide-text button:hover {
+  color: #000;
+}
+.slide-text button:hover::after {
+  width: 100%;
+  transition: ease-in-out 0.4s;
+}
+.slide-text button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  width: 0%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.slide-text.bg-purple {
+  background-color: rgb(119, 61, 134);
+}
+.slide-text.bg-burnt-orange {
+  background-color: rgb(191, 117, 86);
+}
+.slide-text.bg-deep-purple {
+  background-color: rgb(50, 11, 18);
+}
+.slide-text.bg-light-grey {
+  background-color: rgb(169, 169, 169);
+}
+.slide-text.bg-dark-sky {
+  background-color: rgb(10, 11, 13);
+}
+
 .slide-text p {
   padding: 10px 0px;
 }
@@ -19,8 +61,10 @@
   border: 1px solid #fff;
 }
 .slide-card {
-  width: 33%;
+  border-radius: 10px;
+  overflow: hidden;
 }
+
 .slide-image {
   height: 350px;
   overflow: hidden;
