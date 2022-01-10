@@ -205,3 +205,37 @@ ul li:nth-child(1) {
   color: var(--grey);
   font-weight: 600;
 }
+.col-3-trending-col {
+  box-shadow: 10px 6px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.col-3-trending-img img {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.col-3-second-img {
+  border-radius: 100%;
+  width: 60px !important;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.col-3-trending-text {
+  padding: 1.2em 3em;
+}
+.col-3-trending-text p {
+  margin-top: 2em;
+  color: var(--grey);
+}
+
+.span-grey {
+  color: var(--grey);
+}
+.span-blue {
+  color: var(--blue);
+  font-weight: 600;
+  cursor: pointer;
+}
