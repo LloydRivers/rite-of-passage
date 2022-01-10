@@ -155,6 +155,12 @@ ul li:nth-child(1) {
 .col-3-column {
   border-bottom: 2px solid rgba(0, 0, 0, 0.061);
   margin-bottom: 1em;
+  border: 3px solid #fff;
+  padding: 1em;
+  border-radius: 3px;
+}
+.col-3-column:hover {
+  box-shadow: 10px 6px 15px 0 rgba(0, 0, 0, 0.2);
 }
 .col-3-column span {
   font-weight: 500;
@@ -181,4 +187,21 @@ ul li:nth-child(1) {
 .collections-price span {
   color: var(--green);
   display: block;
+}
+.col-4-image img {
+  width: 150px;
+  height: 50px;
+}
+.sell-nft-span {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  margin: 1em;
+}
+.sell-nft-span-blue {
+  color: var(--blue);
+}
+.col-4-column p {
+  color: var(--grey);
+  font-weight: 600;
 }
