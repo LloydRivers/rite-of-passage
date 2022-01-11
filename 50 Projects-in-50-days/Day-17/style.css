@@ -248,6 +248,10 @@ footer {
   filter: invert(100%) sepia(10%) saturate(7466%) hue-rotate(223deg)
     brightness(102%) contrast(92%);
 }
+.in-the-loop-col,
+.footer-nav-col {
+  width: 40%;
+}
 .loop-text {
   color: #fff;
 }
@@ -269,6 +273,9 @@ footer {
   color: #fff;
   font-weight: 600;
   font-size: 20px;
+}
+.loop-col-buttons a {
+  margin: 1em 10px 0 0;
 }
 .loop-col-buttons img {
   width: 50px;
