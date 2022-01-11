@@ -280,3 +280,18 @@ footer {
 .loop-col-buttons img {
   width: 50px;
 }
+hr {
+  opacity: 0.2;
+  border-color: var(--grey);
+  margin: 3em 0;
+}
+
+.footer-nav-col nav ul li {
+  color: #fff;
+  margin: 6px 0;
+}
+.copyright {
+  padding: 1em 0;
+  color: #fff;
+  font-weight: 600;
+}
