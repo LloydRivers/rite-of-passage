@@ -67,6 +67,7 @@ section {
 .col-5 {
   grid-template-columns: repeat(5, 19%);
 }
+
 .hero-section img,
 nav li,
 .logo img {
