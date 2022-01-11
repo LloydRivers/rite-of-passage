@@ -89,6 +89,11 @@ nav li,
   background-color: var(--blue);
   color: #fff;
 }
+.btn-light-blue {
+  background-color: rgb(36, 129, 226);
+  color: #fff;
+  margin-top: 1em;
+}
 .btn-white {
   border: 2px solid var(--blue);
   color: var(--blue);

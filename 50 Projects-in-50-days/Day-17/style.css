@@ -248,3 +248,28 @@ footer {
   filter: invert(100%) sepia(10%) saturate(7466%) hue-rotate(223deg)
     brightness(102%) contrast(92%);
 }
+.loop-text {
+  color: #fff;
+}
+.loop-text span {
+  font-weight: 600;
+  font-size: 20px;
+}
+.loop-text p {
+  margin: 1em 0;
+  max-width: 70%;
+}
+.loop-input input {
+  border: none;
+  border-radius: 8px;
+  width: 300px;
+  padding: 1em;
+}
+.in-the-loop-col h5 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.loop-col-buttons img {
+  width: 50px;
+}
