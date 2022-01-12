@@ -70,4 +70,8 @@
   .footer-nav-col {
     width: 100%;
   }
+  .col-3,
+  .col-4 {
+    grid-template-columns: repeat(1, 96%);
+  }
 }
