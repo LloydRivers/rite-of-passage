@@ -74,6 +74,9 @@
   .col-4 {
     grid-template-columns: repeat(1, 96%);
   }
+  .col-4 {
+    gap: 3em 0;
+  }
   .hero-left-col h1 {
     font-size: 2em;
   }
