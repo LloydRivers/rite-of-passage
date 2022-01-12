@@ -77,4 +77,10 @@
   .hero-left-col h1 {
     font-size: 2em;
   }
+  .btn-global {
+    font-size: 18px;
+  }
+  col p {
+    font-size: 1em;
+  }
 }
