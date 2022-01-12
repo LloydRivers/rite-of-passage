@@ -73,8 +73,10 @@
   .col-3,
   .col-4 {
     grid-template-columns: repeat(1, 96%);
+    justify-content: center;
   }
-  .col-4 {
+  .col-4,
+  .slide-card-container {
     gap: 3em 0;
   }
   .hero-left-col h1 {
@@ -85,5 +87,8 @@
   }
   col p {
     font-size: 1em;
+  }
+  .col-3-trending-col {
+    margin-bottom: 3em;
   }
 }
