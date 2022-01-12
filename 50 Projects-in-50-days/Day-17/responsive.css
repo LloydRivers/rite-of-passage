@@ -1,0 +1,28 @@
+@media (min-width: 1062px) {
+  .burger-icon {
+    display: none;
+  }
+}
+@media (max-width: 1062px) {
+  nav .nav-ul-li {
+    display: none;
+  }
+  .burger-icon img {
+    width: 50px;
+  }
+  .nav-search {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .nav-search-container img {
+    left: 23px;
+  }
+  .nav-search-container {
+    flex-grow: 1;
+  }
+}
+@media (max-width: 960px) {
+  .screen-1055 {
+    display: none;
+  }
+}
