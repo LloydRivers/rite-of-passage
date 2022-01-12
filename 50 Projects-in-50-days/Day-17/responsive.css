@@ -88,7 +88,25 @@
   col p {
     font-size: 1em;
   }
-  .col-3-trending-col {
+  .col-3-trending-col,
+  .footer-nav-col .loop-text {
     margin-bottom: 3em;
+  }
+  .in-the-loop h5 {
+    margin-top: 2em;
+  }
+  .footer-nav {
+    flex-wrap: wrap;
+  }
+
+  .in-the-loop,
+  .loop-text {
+    text-align: center;
+  }
+  .loop-col-buttons {
+    justify-content: center;
+  }
+  .in-the-loop-col .loop-text {
+    margin-top: 3em;
   }
 }
