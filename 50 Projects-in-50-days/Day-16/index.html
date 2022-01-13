@@ -10,56 +10,28 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div class="nav-icons-container">
-          <svg
-            width="32"
-            height="32"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            data-test-id="nav-menu"
-          >
-            <line
-              x1="5.5"
-              y1="6.5"
-              x2="26.5"
-              y2="6.5"
-              stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
-            ></line>
-            <line
-              x1="5.5"
-              y1="15.5"
-              x2="26.5"
-              y2="15.5"
-              stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
-            ></line>
-            <line
-              x1="5.5"
-              y1="24.5"
-              x2="26.5"
-              y2="24.5"
-              stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
-            ></line>
-          </svg>
+      <nav class="flex space-between align-items-center">
+        <div class="nav-icons-container flex align-items-center">
+          <img
+            src="https://crypto.com/static/cae522dc778b83946d0bbe0ee927090c/fdead/white.png"
+            alt="logo"
+          />
           <h3>NFT</h3>
-          <span>NFT</span>
         </div>
-        <ul>
+        <div class="nav-search">
+          <input type="text" />
+        </div>
+        <ul class="header-ul flex">
           <li><a href="#">Marketplace</a></li>
           <li><a href="#">Drops</a></li>
           <li><a href="#">Brands</a></li>
         </ul>
+        <div class="nav-button">
+          <button>Create</button>
+        </div>
         <div class="signup">
           <a href="#">Sign in</a>
           <a href="#">Sign up</a>
-          <button>Create</button>
         </div>
       </nav>
     </header>

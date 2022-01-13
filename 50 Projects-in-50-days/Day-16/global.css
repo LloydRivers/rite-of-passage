@@ -16,3 +16,15 @@
   grid-template-columns: repeat(3, 32%);
   gap: 1em;
 }
+.flex {
+  display: flex;
+}
+.justify-centre {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}

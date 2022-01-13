@@ -1,3 +1,29 @@
 header {
   background-color: var(--bg-color);
+  color: #fff;
+  padding: 10px 20px;
+}
+.nav-search input {
+  padding: 10px;
+  width: 100%;
+}
+.header-ul {
+  list-style: none;
+}
+.header-ul li,
+.signup a {
+  margin: 0 12px;
+}
+.nav-icons-container img {
+  width: 150px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.signup a:nth-child(1),
+.nav-icons-container h3 {
+  border-left: 2px solid grey;
+  padding: 0 0 0 8px;
+  margin: 0 0 0 8px;
 }
