@@ -1,6 +1,8 @@
 header {
   padding: 10px 20px;
+  position: relative;
 }
+
 .logo span {
   font-size: 25px;
   font-weight: 600;
