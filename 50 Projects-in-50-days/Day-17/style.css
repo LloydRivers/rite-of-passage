@@ -1,6 +1,7 @@
 header {
   padding: 10px 20px;
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 
 .logo span {
