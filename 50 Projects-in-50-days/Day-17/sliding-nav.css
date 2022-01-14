@@ -10,6 +10,12 @@
 .hidden li {
   margin: 2em 0 0 15px !important;
   cursor: pointer;
+  position: relative;
+}
+.hidden li::after {
+  position: absolute;
+  content: ">";
+  right: 10px;
 }
 .burger {
   cursor: pointer;
