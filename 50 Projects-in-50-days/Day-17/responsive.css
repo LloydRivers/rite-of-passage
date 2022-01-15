@@ -2,6 +2,9 @@
   .burger-icon {
     display: none;
   }
+  .hidden {
+    display: none;
+  }
 }
 @media (max-width: 1062px) {
   nav .nav-ul-li {

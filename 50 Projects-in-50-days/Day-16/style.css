@@ -60,7 +60,6 @@ nav a:hover {
   color: #fff;
 }
 .drop-container-text {
-  border: 3px solid red;
   width: 50%;
 }
 .drop-container-text h2 {
@@ -68,6 +67,7 @@ nav a:hover {
 }
 .drop-container-text p {
   font-size: 1.3em;
+  margin: 1.5em 0;
 }
 .drop-container-text span {
   color: var(--light-blue);
@@ -85,4 +85,9 @@ nav a:hover {
   padding: 6px 1em;
   border: none;
   border-radius: 3px;
+}
+.drop-container-p {
+  font-size: 11px;
+  width: 70%;
+  margin: 0 auto;
 }
