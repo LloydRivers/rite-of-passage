@@ -50,39 +50,10 @@ nav a:hover {
 .nav-icons-container h3 {
   color: grey;
 }
-.subscribe-section {
+
+.drop-container {
   background-image: url("https://crypto.com/nft/assets/images/drops/subscribe-v2.png");
+  background-position: center;
   height: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-}
-.subscribe-section-text {
-  max-width: 70%;
-}
-.subscribe-section-text h2 {
-  font-size: 3em;
-  font-weight: 600;
-}
-.subscribe-section-text span {
-  display: block;
-  font-size: 1.6em;
-  margin: 1em 0;
-}
-.subscribe-search {
-  width: 100%;
-  border: 3px solid red;
-}
-.subscribe-section-text input {
-  padding: 10px;
-  width: 50%;
-  border-radius: 10px;
-  border: none;
-  padding: 20px 0 20px 35px;
-}
-.subscribe-section-text p {
-  width: 50%;
-  border: 3px solid green;
-  margin: 0 auto;
-  margin-top: 2em;
+  object-fit: cover;
 }

@@ -3,14 +3,19 @@
   /* max-width: 1000px; */
   position: relative;
   margin: auto;
+  border: 3px solid red;
+  height: 100%;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
   position: relative;
+  background-color: #000 !important;
 }
-
+.mySlides img {
+  opacity: 0.8;
+}
 /* Next & previous buttons */
 .prev,
 .next {
