@@ -10,10 +10,6 @@
   border-radius: 10px;
 }
 
-.card img:nth-child(1) {
-  width: 100%;
-}
-
 .card-body {
   padding: 5px 20px;
   background-color: #fff;
@@ -69,4 +65,8 @@
 .card-icons .card-heart-container img {
   height: 30px;
   width: 30px;
+}
+.card-header-image {
+  border: 3px solid green;
+  overflow: hidden;
 }
