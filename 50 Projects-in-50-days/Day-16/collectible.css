@@ -8,6 +8,40 @@
   overflow: hidden;
   font-family: Roboto;
   border-radius: 10px;
+  position: relative;
+}
+.total-sale {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  color: white;
+  background-color: var(--light-blue);
+  border-radius: 10px;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+.total-sale:hover {
+  opacity: 0.9;
+}
+.total-sale-img {
+  width: 20px;
+  filter: invert(85%) sepia(100%) saturate(0%) hue-rotate(36deg)
+    brightness(105%) contrast(103%);
+  margin-right: 6px;
+}
+.card-play-button {
+  position: absolute;
+  bottom: 44%;
+  right: 3%;
+  width: 50px;
+  filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(205deg) brightness(106%)
+    contrast(100%);
+  cursor: pointer;
+}
+.card-play-button:hover {
+  filter: invert(47%) sepia(82%) saturate(1325%) hue-rotate(185deg)
+    brightness(101%) contrast(94%);
+  transition: 0.4s ease-in-out;
 }
 
 .card-header-image img {
@@ -70,10 +104,12 @@
 .card-icons .card-heart-container img {
   height: 30px;
   width: 30px;
+  cursor: pointer;
 }
 .show {
   border-radius: 0;
 }
+
 .heart-red {
   filter: invert(37%) sepia(23%) saturate(6792%) hue-rotate(341deg)
     brightness(94%) contrast(98%);
