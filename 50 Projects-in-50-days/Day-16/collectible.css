@@ -10,6 +10,10 @@
   border-radius: 10px;
 }
 
+.card-header-image img {
+  display: block;
+  object-position: -45px;
+}
 .card-body {
   padding: 5px 20px;
   background-color: #fff;
@@ -27,6 +31,7 @@
 }
 .card-body p {
   margin-bottom: 1em;
+  font-weight: 800;
 }
 .card-auction {
   margin-top: 5px;
@@ -65,8 +70,4 @@
 .card-icons .card-heart-container img {
   height: 30px;
   width: 30px;
-}
-.card-header-image {
-  border: 3px solid green;
-  overflow: hidden;
 }

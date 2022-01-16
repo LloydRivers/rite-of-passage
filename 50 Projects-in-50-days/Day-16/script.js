@@ -30,3 +30,7 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+let cardImage = document.querySelectorAll(".card-header-image");
+
+console.log(cardImage);
