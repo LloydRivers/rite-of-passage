@@ -1,0 +1,72 @@
+.section-collectible {
+  background-color: rgb(11, 20, 38);
+}
+.card {
+  width: 350px;
+  margin: auto;
+  border: 1px solid rgba(255, 255, 255, 0.164);
+  overflow: hidden;
+  font-family: Roboto;
+  border-radius: 10px;
+}
+
+.card img:nth-child(1) {
+  width: 100%;
+}
+
+.card-body {
+  padding: 5px 20px;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+.card-text,
+.card-body p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+.card-body p {
+  margin-bottom: 1em;
+}
+.card-auction {
+  margin-top: 5px;
+}
+.card-auction-col span:nth-child(1) {
+  color: rgb(162, 158, 158);
+}
+.card-auction-col span:nth-child(2) {
+  font-weight: bolder;
+}
+.card-text h5:nth-child(2) {
+  color: var(--light-blue);
+  font-weight: bold;
+}
+.card-auction div:nth-child(2) {
+  margin-left: 1em;
+  border-left: 2px solid black;
+  padding-left: 1em;
+}
+
+.card-auction-col span {
+  display: block;
+}
+.card-icons {
+  margin-top: 3em;
+}
+.card-icons .card-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.card-icons .card-img img,
+.card-icons .card-heart-container img {
+  margin-right: 1em;
+}
+.card-icons .card-heart-container img {
+  height: 30px;
+  width: 30px;
+}

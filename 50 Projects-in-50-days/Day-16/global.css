@@ -16,9 +16,11 @@ body {
   max-width: 1180px;
   margin: 0 auto;
 }
+.grid {
+  display: grid;
+}
 .col-3 {
   grid-template-columns: repeat(3, 32%);
-  gap: 1em;
 }
 .flex {
   display: flex;
