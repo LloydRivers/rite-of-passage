@@ -71,3 +71,10 @@
   height: 30px;
   width: 30px;
 }
+.show {
+  border-radius: 0;
+}
+.heart-red {
+  filter: invert(37%) sepia(23%) saturate(6792%) hue-rotate(341deg)
+    brightness(94%) contrast(98%);
+}

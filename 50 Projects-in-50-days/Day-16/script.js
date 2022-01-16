@@ -31,6 +31,10 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-let cardImage = document.querySelectorAll(".card-header-image");
+let ancestor = document.getElementsByClassName("card-heart-img");
 
-console.log(cardImage);
+for (let i = 0; i < ancestor.length; i++) {
+  ancestor[i].addEventListener("click", function () {
+    ancestor[i].classList.toggle("heart-red");
+  });
+}
