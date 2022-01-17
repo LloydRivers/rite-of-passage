@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {
+  .col-3 {
+    grid-template-columns: repeat(2, 48%);
+    gap: 3em 0;
+  }
+  .col-6 {
+    grid-template-columns: repeat(3, 32%);
+  }
+  .header-ul,
+  .nav-button,
+  .signup {
+    display: none;
+  }
+  .drop-container-p {
+    width: 100%;
+  }
+}
