@@ -10,12 +10,13 @@
   display: none;
   position: relative;
   background-color: #000 !important;
-  height: 800px;
+
   overflow: hidden;
 }
 .mySlides img {
   opacity: 0.8;
-  position: absolute;
+  position: relative;
+  display: block;
 }
 /* Next & previous buttons */
 .prev,
