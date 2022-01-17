@@ -62,8 +62,10 @@ nav a:hover {
 .drop-container-text {
   width: 50%;
 }
-.drop-container-text h2 {
+.drop-container-text h2,
+.collectible-header-text h2 {
   font-size: 3em;
+  color: #fff;
 }
 .drop-container-text p {
   font-size: 1.3em;

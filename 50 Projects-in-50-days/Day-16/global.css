@@ -6,10 +6,14 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: rgb(11, 20, 38);
 }
 :root {
   --bg-color: rgb(11, 20, 38);
   --light-blue: rgb(54, 159, 247);
+}
+.mt-3m {
+  margin-top: 3em;
 }
 .global-width {
   width: 96%;
@@ -22,6 +26,9 @@ body {
 .col-3 {
   grid-template-columns: repeat(3, 32%);
   gap: 3em 0;
+}
+.col-6 {
+  grid-template-columns: repeat(6, 16%);
 }
 .flex {
   display: flex;
