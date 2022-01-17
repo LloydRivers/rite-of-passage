@@ -93,3 +93,28 @@ nav a:hover {
   width: 70%;
   margin: 0 auto;
 }
+.collectible-header-btns div {
+  gap: 10px;
+}
+.collectible-header-btns {
+  padding: 0 1em;
+  margin-top: 3em !important;
+  margin-bottom: 1.3em !important;
+}
+.collectible-header-btns span {
+  color: #fff;
+}
+.collectible-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.collectible-btn:hover {
+  opacity: 0.9;
+}
+.btn-custom {
+  background: var(--light-blue);
+  color: #fff;
+}
