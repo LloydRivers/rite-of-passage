@@ -15,6 +15,9 @@ body {
 .mt-3m {
   margin-top: 3em;
 }
+.mb-3em {
+  margin-bottom: 3em;
+}
 .global-width {
   width: 96%;
   max-width: 1180px;
