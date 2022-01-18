@@ -1,6 +1,69 @@
-.nav-top-top p {
-  color: #fff;
-  text-align: center;
+.nav-top-top {
   color: #fff;
   padding: 15px 0;
+}
+.nav-top-top img,
+nav svg,
+.nav-btns img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(15deg) brightness(120%)
+    contrast(101%);
+  margin-left: 5px;
+  cursor: pointer;
+}
+nav {
+  background-color: var(--navy-blue);
+  padding: 25px;
+  justify-content: space-around;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  color: var(--grey);
+  font-weight: 700;
+  margin: 0 15px !important;
+  padding: 8px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  transition: 0.4s ease-in;
+  background-color: rgba(255, 255, 255, 0.24);
+  transform: scale(1.1);
+}
+.nav-btns button {
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.nav-btns button:hover {
+  transition: 0.4s ease-in;
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+.login {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin: 0 1em;
+}
+.hero {
+  background-image: url("https://www.blockchain.com/static/img/home/home-hero-gradient.svg");
+}
+.hero-content {
+  color: #fff;
+  padding: 10em;
+  max-width: 70%;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.625rem;
+  margin-bottom: 1em;
+}
+.hero-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.125rem;
+  margin-bottom: 2em;
 }

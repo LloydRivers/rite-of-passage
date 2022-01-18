@@ -9,7 +9,7 @@
   --purple: rgb(115, 73, 242);
   --blue: rgb(12, 108, 242);
   --orange: rgb(242, 140, 60);
-  --grey: rgb(77, 86, 102);
+  --grey: rgb(160, 165, 173);
   --pink: rgb(218, 34, 208);
 }
 .gradient {
@@ -30,6 +30,9 @@
 }
 .a-i-c {
   align-items: center;
+}
+.j-c-s-b {
+  justify-content: space-between;
 }
 .t-a-c {
   text-align: center;
