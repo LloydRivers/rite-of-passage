@@ -39,3 +39,10 @@ for (let i = 0; i < ancestor.length; i++) {
     ancestor[i].classList.toggle("heart-red");
   });
 }
+
+let hidden = document.querySelector(".hidden");
+let burger = document.querySelector(".burger");
+
+burger.addEventListener("click", () => {
+  hidden.classList.toggle("show");
+});

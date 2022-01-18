@@ -151,3 +151,37 @@ nav a:hover {
   font-size: 1em;
   position: absolute;
 }
+
+.hidden {
+  position: fixed;
+  background-color: rgb(251, 253, 255);
+  top: 67px;
+  left: 1000px;
+  height: 100vh;
+  width: 100vw;
+  transition: 0.5s ease-out;
+  z-index: 10;
+}
+.hidden li {
+  margin: 2em 0 0 15px !important;
+  cursor: pointer;
+  position: relative;
+  color: rgb(128, 128, 128);
+  list-style: none;
+}
+.hidden li::after {
+  position: absolute;
+  content: ">";
+  right: 10px;
+}
+.burger {
+  cursor: pointer;
+}
+.burger-icon img {
+  filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(230deg)
+    brightness(108%) contrast(102%);
+}
+.show {
+  left: 0;
+  transition: 0.8s ease-out;
+}

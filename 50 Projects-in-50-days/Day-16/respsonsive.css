@@ -61,4 +61,20 @@
   .drop-container-text {
     width: 80%;
   }
+  .nav-search {
+    display: none;
+  }
 }
+
+/* HIDDEN ABOVE 768PX */
+@media (min-width: 768px) {
+  .burger-icon {
+    display: none;
+  }
+}
+@media (min-width: 1062px) {
+  .hidden {
+    display: none;
+  }
+}
+/* HIDDEN ABOVE 768PX */
