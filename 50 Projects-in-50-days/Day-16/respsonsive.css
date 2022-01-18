@@ -49,6 +49,9 @@
     width: 49px;
     margin: 0 2px 8px 0;
   }
+  .collectible-header-btns {
+    justify-content: center;
+  }
 }
 @media only screen and (max-width: 489px) {
   .col-3 {
