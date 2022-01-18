@@ -14,14 +14,16 @@ function Input({ addTodo }) {
     e.preventDefault();
     addTodo({ todo, date });
   }
+
   return (
     <div>
-      <input value={todo} onChange={handleState} type="text" />
-      <input value={date} onChange={handleDate} type="date" />
-
-      <button onClick={handleSubmit} type="submit">
-        Submit
-      </button>
+      <div>
+        <input value={todo} onChange={handleState} type="text" />
+        <input value={date} onChange={handleDate} type="date" />
+        <button onClick={handleSubmit} type="submit">
+          Submit
+        </button>
+      </div>
     </div>
   );
 }
