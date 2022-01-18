@@ -1,3 +1,9 @@
+@media (max-width: 1180px) {
+  .col-3 {
+    grid-template-columns: repeat(2, 47%);
+    gap: 3em 0;
+  }
+}
 @media only screen and (max-width: 768px) {
   .col-3 {
     grid-template-columns: repeat(1, 96%);
@@ -52,7 +58,11 @@
   .collectible-header-btns {
     justify-content: center;
   }
+  .nav-search {
+    display: none;
+  }
 }
+
 @media only screen and (max-width: 489px) {
   .col-3 {
     grid-template-columns: repeat(1, 96%);
@@ -66,21 +76,13 @@
   .collectible-header-text h2 {
     font-size: 1.5em;
   }
-
-  .nav-search {
-    display: none;
-  }
 }
-
 /* HIDDEN ABOVE 768PX */
 @media (min-width: 768px) {
   .burger-icon {
     display: none;
   }
-}
-@media (min-width: 1062px) {
   .hidden {
     display: none;
   }
 }
-/* HIDDEN ABOVE 768PX */
