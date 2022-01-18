@@ -14,6 +14,16 @@
   .drop-container-p {
     width: 100%;
   }
+  .dots-circles {
+    bottom: 0px;
+  }
+  .mySlides {
+    height: 500px;
+  }
+  .mySlides img {
+    height: 500px;
+    object-fit: cover;
+  }
 }
 @media only screen and (max-width: 489px) {
   .col-3 {
@@ -34,16 +44,7 @@
   .collectible-header-btns div:nth-child(1) {
     display: none;
   }
-  .dots-circles {
-    bottom: 0px;
-  }
-  .mySlides {
-    height: 500px;
-  }
-  .mySlides img {
-    height: 500px;
-    object-fit: cover;
-  }
+
   .text h2 {
     font-size: 1.3em;
   }
