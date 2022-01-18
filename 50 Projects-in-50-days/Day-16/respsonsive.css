@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
   .col-3 {
-    grid-template-columns: repeat(2, 48%);
+    grid-template-columns: repeat(1, 96%);
     gap: 3em 0;
   }
   .col-6 {
@@ -24,15 +24,6 @@
     height: 500px;
     object-fit: cover;
   }
-}
-@media only screen and (max-width: 489px) {
-  .col-3 {
-    grid-template-columns: repeat(1, 96%);
-    gap: 3em 0;
-  }
-  .col-6 {
-    grid-template-columns: repeat(1, 96%);
-  }
   .header-ul,
   .nav-button,
   .signup {
@@ -51,17 +42,28 @@
   .text span {
     font-size: 1.4em;
   }
+  .drop-container-text {
+    width: 80%;
+  }
   .dot {
     width: 49px;
     margin: 0 2px 8px 0;
   }
+}
+@media only screen and (max-width: 489px) {
+  .col-3 {
+    grid-template-columns: repeat(1, 96%);
+    gap: 3em 0;
+  }
+  .col-6 {
+    grid-template-columns: repeat(2, 46%);
+  }
+
   .drop-container-text h2,
   .collectible-header-text h2 {
     font-size: 1.5em;
   }
-  .drop-container-text {
-    width: 80%;
-  }
+
   .nav-search {
     display: none;
   }
