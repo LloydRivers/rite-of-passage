@@ -86,3 +86,51 @@ nav ul li:hover {
 .hero-btns button:nth-child(2) {
   letter-spacing: 1px;
 }
+.col-4-parent {
+  transform: translateY(-50%);
+}
+.col-4-parent div:nth-child(4) {
+  position: relative;
+}
+.col-4-parent div:nth-child(4):after {
+  display: block;
+  color: var(--grey);
+  font-weight: 700;
+  position: absolute;
+  bottom: -35px;
+  right: 0;
+  content: "View more prices >";
+}
+.hero-card-column {
+  padding: 15px;
+  border: 3px solid rgba(46, 135, 204, 0.733);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.hero-card-imgs img {
+  width: 35px;
+}
+.hero-card-imgs img:nth-child(2) {
+  margin: 0 10px;
+}
+.hero-card-middle-text {
+  margin: 18px 0;
+}
+.hero-card-middle-text span {
+  font-weight: 700;
+}
+.hero-card-middle-text span:nth-child(2) {
+  color: var(--grey);
+}
+.hero-card-prices span:nth-child(2) {
+  color: red;
+}
+.hero-card-prices span:nth-child(1) {
+  margin-right: 10px;
+}
+/* .view-prices {
+  border: 3px solid red;
+  text-align: right;
+} */
