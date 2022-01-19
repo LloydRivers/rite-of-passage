@@ -97,9 +97,20 @@ nav ul li:hover {
   color: var(--grey);
   font-weight: 700;
   position: absolute;
+  bottom: -30px;
+  right: 20px;
+  content: "View more prices";
+  font-size: 20px;
+}
+.col-4-parent div:nth-child(4)::before {
+  display: block;
+  color: var(--grey);
+  font-weight: 700;
+  position: absolute;
   bottom: -35px;
-  right: 0;
-  content: "View more prices >";
+  right: 0px;
+  font-size: 34px;
+  content: "\203A";
 }
 .hero-card-column {
   padding: 15px;
@@ -130,7 +141,3 @@ nav ul li:hover {
 .hero-card-prices span:nth-child(1) {
   margin-right: 10px;
 }
-/* .view-prices {
-  border: 3px solid red;
-  text-align: right;
-} */
