@@ -141,3 +141,39 @@ nav ul li:hover {
 .hero-card-prices span:nth-child(1) {
   margin-right: 10px;
 }
+
+/* WALLET START */
+.wallet {
+  border-radius: 1.25rem;
+  background-color: #f7f5fe;
+  background-image: url("https://www.blockchain.com/static/img/home/home-wallet-shapes-bg.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right bottom 2.5rem;
+  padding: 3em 0;
+}
+.wallet-column {
+  color: var(--purple);
+}
+.custom {
+  padding-left: 2em;
+}
+.wallet-column img {
+  display: block;
+  position: relative;
+  bottom: 45px;
+  left: 67px;
+}
+.wallet-col-text {
+  border: 1px solid rgba(115, 73, 242, 0.349);
+  border-radius: 10px;
+  padding: 1em 1.5em 1em 1em;
+  margin: 1em 0;
+}
+.wallet-col-text-h2 {
+  margin-bottom: 1.5em;
+  font-size: 2.5em;
+}
+.wallet-col-text span {
+  display: block;
+}

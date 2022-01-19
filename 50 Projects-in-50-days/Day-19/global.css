@@ -25,6 +25,9 @@
 .flex {
   display: flex;
 }
+.flex-column {
+  flex-direction: column;
+}
 .j-c-c {
   justify-content: center;
 }
@@ -47,6 +50,9 @@ body {
 }
 .grid {
   display: grid;
+}
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
 }
 .col-4 {
   grid-template-columns: repeat(4, 24%);
