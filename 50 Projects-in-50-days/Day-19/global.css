@@ -58,6 +58,9 @@ body {
 .col-4 {
   grid-template-columns: repeat(4, 24%);
 }
+.col-4-custom {
+  grid-template-columns: repeat(4, 24%);
+}
 .space-between {
   justify-content: space-between;
 }

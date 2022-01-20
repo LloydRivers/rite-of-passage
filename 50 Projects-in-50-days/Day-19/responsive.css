@@ -1,0 +1,15 @@
+@media (max-width: 1050px) {
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .col-4 {
+    grid-template-columns: repeat(3, 32%);
+  }
+  .col-4 div:nth-child(4) {
+    display: none;
+  }
+  .header-nav-ul {
+    display: none;
+  }
+}

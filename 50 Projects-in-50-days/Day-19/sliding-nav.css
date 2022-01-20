@@ -1,0 +1,26 @@
+.hidden {
+  position: fixed;
+  background-color: rgb(251, 253, 255);
+  top: 160px;
+  left: 1600px;
+  height: 100vh;
+  width: 100vw;
+  transition: 0.5s ease-out;
+}
+.hidden li {
+  margin: 2em 0 0 15px !important;
+  cursor: pointer;
+  position: relative;
+}
+.hidden li::after {
+  position: absolute;
+  content: ">";
+  right: 10px;
+}
+.burger {
+  cursor: pointer;
+}
+.show {
+  left: 0;
+  transition: 0.8s ease-out;
+}
