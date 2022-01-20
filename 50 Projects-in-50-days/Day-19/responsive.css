@@ -35,6 +35,13 @@
   .wallet-left .wallet-column:nth-child(1) {
     display: none;
   }
+  .nav-btns {
+    display: none;
+  }
+  .burger-icon img {
+    filter: invert(100%) sepia(36%) saturate(2%) hue-rotate(169deg)
+      brightness(103%) contrast(100%);
+  }
 }
 @media (max-width: 480px) {
   .nav-btns img {
