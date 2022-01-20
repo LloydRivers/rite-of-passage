@@ -61,3 +61,6 @@ body {
 .space-between {
   justify-content: space-between;
 }
+footer {
+  background-color: #fff;
+}
