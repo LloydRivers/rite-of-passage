@@ -36,3 +36,8 @@
     display: none;
   }
 }
+@media (max-width: 480px) {
+  .nav-btns img {
+    display: none;
+  }
+}
