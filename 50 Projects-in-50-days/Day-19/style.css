@@ -143,18 +143,20 @@ nav ul li:hover {
 }
 
 /* WALLET START */
-.wallet {
+.wallet-global {
   border-radius: 1.25rem;
   background-color: #f7f5fe;
   background-image: url("https://www.blockchain.com/static/img/home/home-wallet-shapes-bg.png");
   background-repeat: no-repeat;
   background-size: 500px;
-  background-position: right bottom 2.5rem;
   padding: 3em 0;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
-.wallet-column {
-  color: var(--purple);
+.wallet-right {
+  background-position: right bottom 2.5rem;
 }
+
 .custom {
   padding-left: 2em;
 }
@@ -164,8 +166,21 @@ nav ul li:hover {
   bottom: 45px;
   left: 67px;
 }
-.wallet-col-text {
+.wallet-left .wallet-col-text {
+  border: 1px solid rgb(12, 108, 242);
+  color: var(--blue);
+}
+.wallet-right {
+  color: var(--purple);
+}
+.wallet-left {
+  color: var(--blue);
+}
+.wallet-right .wallet-col-text {
   border: 1px solid rgba(115, 73, 242, 0.349);
+}
+
+.wallet-col-text {
   border-radius: 10px;
   padding: 1em 1.5em 1em 1em;
   margin: 1em 0;
