@@ -40,4 +40,11 @@
   .nav-btns img {
     display: none;
   }
+  .hero-content {
+    padding: 0 1em 5em 1em;
+    max-width: 100%;
+  }
+  .get-started button {
+    margin-top: 1em;
+  }
 }
