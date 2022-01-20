@@ -1,8 +1,13 @@
+@media (min-width: 1050px) {
+  .hidden,
+  .burger-icon {
+    display: none;
+  }
+}
 @media (max-width: 1050px) {
   .hero-content {
     max-width: 100%;
   }
-
   .col-4 {
     grid-template-columns: repeat(3, 32%);
   }
@@ -10,6 +15,24 @@
     display: none;
   }
   .header-nav-ul {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .col-4 {
+    grid-template-columns: repeat(2, 47%);
+  }
+  .col-4 div:nth-child(3) {
+    display: none;
+  }
+  .col-2 {
+    grid-template-columns: repeat(1, 98%);
+  }
+  .wallet-global {
+    background-image: none;
+  }
+  .wallet-right .wallet-column:nth-child(2),
+  .wallet-left .wallet-column:nth-child(1) {
     display: none;
   }
 }

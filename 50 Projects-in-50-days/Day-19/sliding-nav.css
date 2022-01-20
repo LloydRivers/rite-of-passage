@@ -6,6 +6,7 @@
   height: 100vh;
   width: 100vw;
   transition: 0.5s ease-out;
+  z-index: 10;
 }
 .hidden li {
   margin: 2em 0 0 15px !important;
