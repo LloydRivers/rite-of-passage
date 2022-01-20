@@ -19,3 +19,4 @@ These are the projects I made, pair programming with a friend.
 | 15  |           Day 15: Natours            | [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-15/starter/index.html) |
 | 16  |          Day 16: Crypto.com          |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-16/index.html) |
 | 17  |           Day 17: OpenSea            |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-17/index.html) |
+| 19  |        Day 19: Blockchain.com        |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-19/index.html) |
