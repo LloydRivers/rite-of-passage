@@ -47,4 +47,9 @@
   .get-started button {
     margin-top: 1em;
   }
+  .col-4-custom {
+    grid-template-columns: repeat(2, 47%);
+    gap: 1em;
+    padding-left: 1em;
+  }
 }
