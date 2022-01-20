@@ -198,8 +198,9 @@ nav ul li:hover {
   padding: 3em;
 }
 .get-started span {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 24px;
+  display: block;
 }
 .get-started button {
   color: var(--blue);
