@@ -33,6 +33,7 @@ function showSlides(n) {
 
 // let ancestor = document.querySelectorAll(".card-heart-img:nth-child(1)");
 let ancestor = document.getElementsByClassName("card-heart-img");
+console.log(ancestor);
 // console.log(ancestor);
 for (let i = 0; i < ancestor.length; i++) {
   ancestor[i].addEventListener("click", function () {
