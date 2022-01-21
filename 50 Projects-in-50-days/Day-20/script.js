@@ -5,5 +5,5 @@ getData(API_URL);
 async function getData(api) {
   const data = await fetch(api);
   const response = await data.json();
-  console.log(response.results);
+  console.log(response.results[0]);
 }
