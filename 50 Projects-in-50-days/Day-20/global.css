@@ -14,15 +14,16 @@ body {
   );
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
 }
 .image-invert-white {
   filter: invert(100%) sepia(36%) saturate(2%) hue-rotate(169deg)
     brightness(103%) contrast(100%);
 }
 :root {
+  --red: rgb(209, 48, 43);
 }
-.gradient {
-}
+
 .flex {
   display: flex;
 }
