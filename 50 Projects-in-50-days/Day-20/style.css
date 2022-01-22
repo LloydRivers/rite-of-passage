@@ -4,6 +4,16 @@
 .header-logo img {
   width: 50px;
 }
+.header-logo span {
+  margin-left: 8px;
+  font-size: 20px;
+  color: rgb(231, 94, 197);
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.m-s-nav {
+  padding-top: 1em;
+}
 ul {
   list-style: none;
 }
@@ -42,4 +52,45 @@ ul span {
 .ul ul span {
   margin-left: 10px;
   bottom: 7px;
+}
+.middle-column {
+  padding-top: 17px;
+  border-left: 2px solid rgba(128, 128, 128, 0.726);
+  border-right: 2px solid rgba(128, 128, 128, 0.726);
+  padding: 0 10px;
+}
+.middle-column ul li,
+.middle-column div:nth-child(1) {
+  margin: 0 !important;
+}
+.hero {
+  margin-top: 4em;
+}
+.hero-card {
+  height: 350px;
+  background-position: bottom;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+.hero-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(141, 141, 141, 0.2);
+}
+.hero-card h2 {
+  font-weight: 800;
+  font-size: 2.3em;
+}
+.hero-card-lower-txt {
+  position: absolute;
+  bottom: 0;
+}
+.hero-card-lower-txt p {
+  padding: 0 10px;
+}
+.hero-card-lower-txt span {
+  display: block;
+  margin: 1.5em 0 10px 0;
 }
