@@ -19,6 +19,9 @@ body {
   background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
 }
+main {
+  padding: 1em 0;
+}
 .image-invert-white {
   filter: invert(100%) sepia(36%) saturate(2%) hue-rotate(169deg)
     brightness(103%) contrast(100%);
@@ -61,6 +64,7 @@ body {
 }
 .col-4 {
   grid-template-columns: repeat(4, 23%);
+  gap: 0% 2%;
 }
 .col-2-custom {
   grid-template-columns: 40% 55%;
@@ -69,12 +73,10 @@ body {
 .hero-right {
   text-align: center;
 }
-.col-4 {
-  grid-template-columns: repeat(4, 24%);
-}
+
 .txt-white {
   color: #fff;
 }
 .interface {
-  grid-template-columns: 23% 46% 23%;
+  grid-template-columns: 20% 55% 25%;
 }
