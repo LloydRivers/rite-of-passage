@@ -94,3 +94,29 @@ ul span {
   display: block;
   margin: 1.5em 0 10px 0;
 }
+.hero-card-lower-btns {
+  margin-left: 3px;
+  padding: 8px;
+}
+
+.hero-card-lower-btns button,
+.slide-forward,
+.slide-back {
+  color: white;
+  background-color: var(--red);
+  padding: 8px 16px;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hero-card-lower-btns button:hover {
+  opacity: 0.9;
+}
+.hero-card-lower-btns button:nth-last-child(1) {
+  margin-left: 3px;
+}
+
+.slide-back {
+  display: none;
+}
