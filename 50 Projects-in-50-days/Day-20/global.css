@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+img {
+  width: 100%;
+}
 body {
   min-height: 100vh;
   background-image: linear-gradient(
@@ -55,6 +58,16 @@ body {
 }
 .col-2 {
   grid-template-columns: repeat(2, 48%);
+}
+.col-4 {
+  grid-template-columns: repeat(4, 23%);
+}
+.col-2-custom {
+  grid-template-columns: 40% 55%;
+  align-items: center;
+}
+.hero-right {
+  text-align: center;
 }
 .col-4 {
   grid-template-columns: repeat(4, 24%);

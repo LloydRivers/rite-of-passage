@@ -28,19 +28,28 @@ function render(arr1) {
   let heroCard = document.getElementById("hero-card");
 
   let imagePath = arr1.poster_path;
-  heroCard.style.backgroundImage = `url(${IMG_PATH + imagePath})`;
+
   heroCard.innerHTML = `
-  
-            <h2 class="t-a-c txt-white">${arr1.original_title}</h2>
+             <div> <img class="hero-img" src="${IMG_PATH + imagePath}"/> </div>
+
+
+             <div class="hero-right"> 
+             <h2 class="t-a-c txt-white">${arr1.original_title}</h2>
             <div class="hero-card-lower-txt txt-white">
-              <p>
+               <div class="hero-card-lower-p"> 
+              <p style="display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;  
+              overflow: hidden;">
                 "${arr1.overview}"
                 <span>Released ${arr1.release_date}</span>
               </p>
+              </div>
               <div class="hero-card-lower-btns">
                 <button>Watch now</button>
                 <button>+</button>
               </div>
+            </div>
             </div>
   
   
