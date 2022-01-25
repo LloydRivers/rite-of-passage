@@ -1,0 +1,16 @@
+@media (min-width: 1000px) {
+  .closebtn,
+  .openNav {
+    display: none;
+  }
+}
+/* DONT TOUCH THE ABOVE CODE */
+/* Start here  */
+@media (max-width: 1000px) {
+  header {
+    transform: translateX(-1000px);
+  }
+  .interface {
+    grid-template-columns: 0 68% 30%;
+  }
+}

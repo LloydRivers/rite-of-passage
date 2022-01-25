@@ -11,14 +11,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="sideNav.css" />
     <title>OnChain Movies</title>
   </head>
   <body>
-    <main class="grid interface global-width">
+    <main id="main" class="grid interface global-width">
       <!-- COLUMN1 STAR-->
       <section>
         <!-- COLUMN1 -->
-        <header>
+        <header id="mySidenav" class="sliding-nav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
           <div class="header-logo flex a-i-c">
             <img class="image-invert-white" src="./img/movie.png" alt="logo" />
             <span>OnChain Movies</span>
@@ -125,6 +130,13 @@
       <!-- COLUMN2 START-->
       <section class="middle-column">
         <div class="ul m-s-nav flex a-i-c">
+          <img
+            class="openNav"
+            onclick="openNav()"
+            src="./img/menu.png"
+            alt=""
+          />
+
           <ul class="flex">
             <li>
               <a href=""><span>Tv Series</span></a>
@@ -226,9 +238,66 @@
         </div>
       </section>
       <!-- COLUMN2 -->
-      <section class="txt-white"></section>
+      <section class="right-column txt-white">
+        <div class="search">
+          <input type="search" placeholder="search movies..." />
+        </div>
+        <h4>Popular Movies</h4>
+        <div class="card flex a-i-c">
+          <div class="card-img">
+            <img
+              src="https://lionsgate.brightspotcdn.com/59/e8/576c91ae47e4aa7fd6240dc48674/john-wick-chapter-1-movies-poster-01.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-text">
+            <span class="first-spans">John Wick</span>
+            <span class="first-spans">Action, Horror</span>
+            <div class="review">
+              <span class="imdb-logo">IMDB</span>
+              <span>7.4</span>
+            </div>
+          </div>
+        </div>
+        <div class="card flex a-i-c">
+          <div class="card-img">
+            <img
+              src="https://s2.gaming-cdn.com/images/products/835/orig/game-steam-mad-max-cover.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-text">
+            <span class="first-spans">Mad Max</span>
+            <span class="first-spans">Action, Adventure</span>
+            <div class="review">
+              <span class="imdb-logo">IMDB</span>
+              <span>8.1</span>
+            </div>
+          </div>
+        </div>
+        <div class="card flex a-i-c">
+          <div class="card-img">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card-text">
+            <span class="first-spans">Bad Boys</span>
+            <span class="first-spans">Action</span>
+            <div class="review">
+              <span class="imdb-logo">IMDB</span>
+              <span>9.4</span>
+            </div>
+          </div>
+        </div>
+        <button class="card-btn">See more...</button>
+
+        <br />
+      </section>
     </main>
   </body>
   <script src="script.js"></script>
+  <script src="sideNav.js"></script>
   <!-- <script src="slider.js"></script> -->
 </html>
