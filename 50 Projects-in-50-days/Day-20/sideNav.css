@@ -1,14 +1,3 @@
-.sliding-nav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  padding: 60px 10px 0 10px;
-  transition: 0.5s;
-}
 .openNav img {
   width: 180px !important;
 }
