@@ -5,19 +5,24 @@
   padding: 0;
 }
 :root {
-  --purple: rgb(90, 69, 237);
+  --pink: #9e20b1;
 }
-
+body {
+  font-family: "Montserrat", sans-serif;
+}
 .flex {
   display: flex;
 }
-
+.white-text {
+  color: #fff;
+}
 .flex-column {
   flex-direction: column;
 }
 .j-c-c {
   justify-content: center;
 }
+
 .a-i-c {
   align-items: center;
 }
@@ -27,9 +32,7 @@
 .t-a-c {
   text-align: center;
 }
-body {
-  font-family: "Montserrat", sans-serif;
-}
+
 .global-width {
   width: 96%;
   max-width: 1180px;
