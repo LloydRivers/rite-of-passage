@@ -96,9 +96,11 @@ header nav ul li:nth-child(2) {
   transition: 0.3s;
   border-radius: 10px;
   padding: 1em;
+  cursor: pointer;
 }
 .col-6-column:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
 }
 .col-6-column img {
   display: block;
@@ -109,4 +111,26 @@ header nav ul li:nth-child(2) {
   font-size: 19px;
   display: block;
   margin-left: 5px;
+}
+/* <!-- Mintable Academy --> */
+.mintable-txt-header span {
+  font-size: 2em;
+  font-weight: 800;
+}
+.mintable-col {
+  margin: 0 auto;
+
+  padding: 1em;
+}
+.mintable-col img {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+.mintable-col a {
+  color: var(--pink);
+  text-decoration: none;
+}
+.mintable-col a:hover {
+  text-decoration: underline;
 }
