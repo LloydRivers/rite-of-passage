@@ -6,6 +6,8 @@
 }
 :root {
   --pink: #9e20b1;
+  --hero-gradient-white: #ffffff;
+  --hero-gradient-pink: #9e20b1a8;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -47,6 +49,15 @@ body {
 .col-4 {
   grid-template-columns: repeat(4, 24%);
 }
+.col-6 {
+  grid-template-columns: repeat(6, 16%);
+  gap: 0 10px;
+}
+.col-7-custom {
+  grid-template-columns: 10% 10% 10% 10% 10% 10%;
+  gap: 1em;
+}
+
 .space-between {
   justify-content: space-between;
 }

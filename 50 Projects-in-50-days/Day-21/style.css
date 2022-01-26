@@ -1,6 +1,27 @@
 .nav-logo img {
   width: 60px;
 }
+.drop-nav span,
+header nav ul li {
+  font-size: 18px;
+}
+.search {
+  position: relative;
+}
+.search input {
+  border-radius: 10px;
+  border: 1px solid var(--pink);
+  padding: 10px 40px;
+}
+
+.search svg {
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
 .drop-nav span::after {
   content: "";
   display: inline-block;
@@ -8,6 +29,7 @@
   border-left: 0.7em solid transparent;
   border-right: 0.7em solid transparent;
   border-bottom: 0px;
+  margin-left: 8px;
 }
 header nav ul {
   list-style: none;
@@ -59,4 +81,32 @@ header nav ul li:nth-child(2) {
 }
 .lower-hdr {
   padding: 10px 0;
+}
+.hero {
+  background: #ffffff;
+  background: linear-gradient(
+    to top,
+    var(--hero-gradient-white),
+    var(--hero-gradient-pink)
+  );
+  height: 400px;
+}
+.col-6-column {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 1em;
+}
+.col-6-column:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.col-6-column img {
+  display: block;
+}
+.col-6-column span {
+  color: #000;
+  font-weight: 800;
+  font-size: 19px;
+  display: block;
+  margin-left: 5px;
 }
