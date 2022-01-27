@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+.m-b {
+  margin-bottom: 3em;
+}
 :root {
   --pink: #9e20b1;
   --hero-gradient-white: #ffffff;

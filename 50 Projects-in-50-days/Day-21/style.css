@@ -134,3 +134,34 @@ header nav ul li:nth-child(2) {
 .mintable-col a:hover {
   text-decoration: underline;
 }
+.hero-text {
+  width: 95%;
+  max-width: 700px;
+  margin: auto;
+}
+.hero-text * {
+  color: #fff;
+}
+.hero-text h1 {
+  font-size: 2.6em;
+}
+.hero-text p {
+  font-size: 1.2em;
+  margin: 2em 0;
+  font-weight: 700;
+}
+.hero-text button {
+  padding: 8px 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+.hero-text button:nth-child(odd) {
+  background-color: var(--pink);
+}
+.hero-text button:nth-child(even) {
+  background-color: #9e20b1a8;
+  margin-left: 1em;
+}
