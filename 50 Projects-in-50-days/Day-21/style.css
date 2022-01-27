@@ -89,7 +89,7 @@ header nav ul li:nth-child(2) {
     var(--hero-gradient-white),
     var(--hero-gradient-pink)
   );
-  height: 400px;
+  min-height: 400px;
 }
 .col-6-column {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
