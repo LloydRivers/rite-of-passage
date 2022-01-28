@@ -1,3 +1,11 @@
+let showNav = document.getElementById("reveal-nav");
+
+let container = document.querySelector(".drop-down-navs-container");
+
+showNav.addEventListener("click", function () {
+  container.classList.toggle("show");
+});
+
 let slideIndex = [1, 1];
 let slideId = ["mySlides1", "mySlides2"];
 showSlides(1, 0);
@@ -19,5 +27,5 @@ function showSlides(n, no) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
-  x[slideIndex[no] - 1].style.display = "block";
+  x[slideIndex[no] - 1].style.display = "grid";
 }

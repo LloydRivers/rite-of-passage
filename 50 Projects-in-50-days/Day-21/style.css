@@ -21,16 +21,14 @@ header nav ul li {
   left: 10px;
   transform: translateY(-50%);
 }
-
-.drop-nav span::after {
-  content: "";
-  display: inline-block;
-  border-top: 0.7em solid var(--pink);
-  border-left: 0.7em solid transparent;
-  border-right: 0.7em solid transparent;
-  border-bottom: 0px;
+.drop-nav img {
+  width: 20px;
+  cursor: pointer;
   margin-left: 8px;
+  filter: invert(14%) sepia(62%) saturate(5902%) hue-rotate(287deg)
+    brightness(98%) contrast(87%);
 }
+
 header nav ul {
   list-style: none;
 }
@@ -178,7 +176,6 @@ header nav ul li:nth-child(2) {
 
 .drop-down-navs img {
   width: 150px;
-
   display: block;
   margin: 0 auto 10px auto;
 }
@@ -192,4 +189,55 @@ header nav ul li:nth-child(2) {
 .drop-down-navs ul li {
   color: rgb(128, 128, 128);
   margin-bottom: 10px;
+}
+.show {
+  display: grid !important;
+}
+.drop-down-navs-container {
+  display: none;
+}
+
+.collection-card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--pink);
+}
+.collection-card:hover {
+  color: #000;
+}
+
+.card-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.card-circle-image {
+  transform: translateY(-50%);
+}
+.card-circle-image img {
+  width: 70px;
+}
+.card-txt h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.card-btm-txt {
+  margin: 1em;
+  padding: 15px 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.329);
+}
+.card-btm-txt span:nth-child(1) {
+  font-size: 13px;
+}
+.card-btm-txt div {
+  text-align: center;
+  padding: 0 3px;
+}
+.card-btm-txt div:nth-child(even) {
+  border-left: 1px solid rgba(128, 128, 128, 0.329);
+  border-right: 1px solid rgba(128, 128, 128, 0.329);
 }
