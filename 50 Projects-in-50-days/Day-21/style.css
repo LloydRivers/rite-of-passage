@@ -196,6 +196,10 @@ header nav ul li:nth-child(2) {
 .drop-down-navs-container {
   display: none;
 }
+.t-collect-header-text {
+  margin-bottom: 1em;
+  font-size: 1.8em;
+}
 
 .collection-card {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -240,4 +244,41 @@ header nav ul li:nth-child(2) {
 .card-btm-txt div:nth-child(even) {
   border-left: 1px solid rgba(128, 128, 128, 0.329);
   border-right: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+/* Newest NFTs */
+.newest-nfts-custom-cards .card-image img {
+  height: 250px;
+}
+.nfts-card-btm-txt {
+  border-top: 1px solid rgba(128, 128, 128, 0.335);
+  padding: 8px;
+}
+.newest-nfts-custom-cards .card-txt span {
+  color: #000;
+}
+.nfts-card-btm-txt div:nth-child(odd) span:nth-child(even) {
+  display: block;
+}
+.card-text-margin {
+  margin-left: 8px;
+}
+.nfts-card-btm-txt div:nth-child(even) img {
+  margin-right: 5px;
+}
+.nfts-card-btm-txt div:nth-child(even) img:hover {
+  filter: invert(14%) sepia(62%) saturate(5902%) hue-rotate(287deg)
+    brightness(98%) contrast(87%);
+}
+.newest-nfts-custom-cards .card-txt span {
+  display: block;
+  margin-bottom: 8px;
+}
+.newest-nfts-custom-cards .card-txt {
+  padding: 1em;
+}
+
+.card-btm-txt-img img {
+  border-radius: 100%;
+  width: 50px;
 }

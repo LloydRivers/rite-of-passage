@@ -4,8 +4,9 @@
   margin: 0;
   padding: 0;
 }
-.m-b {
-  margin-bottom: 3em;
+
+.m-t {
+  margin-top: 3em;
 }
 :root {
   --pink: #9e20b1;
@@ -43,6 +44,9 @@ body {
   max-width: 1180px;
   margin: 0 auto;
 }
+.m-b {
+  margin-bottom: 3em;
+}
 .grid {
   display: grid;
 }
@@ -51,6 +55,9 @@ body {
 }
 .col-4 {
   grid-template-columns: repeat(4, 24%);
+}
+.col-5 {
+  grid-template-columns: repeat(5, 18%);
 }
 .col-6 {
   grid-template-columns: repeat(6, 16%);
