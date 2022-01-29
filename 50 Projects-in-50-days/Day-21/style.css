@@ -115,6 +115,9 @@ header nav ul li:nth-child(2) {
   font-size: 2em;
   font-weight: 800;
 }
+.mintable-txt-header p {
+  margin-top: 8px;
+}
 .mintable-col {
   margin: 0 auto;
 

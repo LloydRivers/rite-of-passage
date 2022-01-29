@@ -8,6 +8,12 @@
 .m-t {
   margin-top: 3em;
 }
+.p-t {
+  padding-top: 5em;
+}
+.m-b-5 {
+  margin-bottom: 5em;
+}
 :root {
   --pink: #9e20b1;
   --hero-gradient-white: #ffffff;
@@ -63,8 +69,7 @@ body {
   grid-template-columns: repeat(6, 16%);
 }
 .col-7-custom {
-  grid-template-columns: 10% 10% 10% 10% 10% 10%;
-  gap: 1em;
+  grid-template-columns: repeat(7, 14%);
 }
 
 .space-between {
