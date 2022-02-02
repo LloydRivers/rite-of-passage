@@ -6,7 +6,7 @@
   padding: 0;
 }
 .App {
-  background-image: url("https://images.unsplash.com/photo-1516638489986-0c17c234db55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://images.unsplash.com/photo-1637595056843-c80c2f49c861?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1146&q=80");
   min-height: 100vh;
   position: relative;
 }
@@ -25,7 +25,8 @@
 }
 
 :root {
-  --orange: rgb(246, 176, 81);
+  --orange: #f6b051;
+  --blue: rgb(73, 147, 247);
 }
 
 body {
@@ -63,5 +64,13 @@ body {
   display: grid;
 }
 .col-2 {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 47%);
+  min-height: 600px;
+}
+.tooth {
+  filter: invert(87%) sepia(14%) saturate(2508%) hue-rotate(323deg)
+    brightness(100%) contrast(94%);
+}
+.icon-abs {
+  width: 50px;
 }

@@ -31,3 +31,25 @@
 .nav-btn button:hover {
   transform: scale(1.1);
 }
+.hero-column {
+  border: 1px solid rgba(180, 179, 179, 0.329);
+  border-radius: 5px;
+  padding: 4em 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.hero-column span {
+  display: block;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 18px;
+}
+.hero-column h1 {
+  font-size: 4em;
+  margin: 14px 0;
+}
+.hero-column p {
+  font-weight: 600;
+  color: rgba(66, 66, 66, 0.835);
+  font-size: 1.3em;
+  padding: 0 13px 0 0;
+}
