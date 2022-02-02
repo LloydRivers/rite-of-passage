@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-image: url("https://images.unsplash.com/photo-1516638489986-0c17c234db55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  min-height: 100vh;
+  position: relative;
+}
+.glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(0.5rem);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.z-index {
+  position: relative;
+  z-index: 1;
+}
+
+:root {
+  --orange: rgb(246, 176, 81);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.global-width {
+  width: 96%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.white-text {
+  color: #fff;
+}
+.flex-column {
+  flex-direction: column;
+}
+.j-c-c {
+  justify-content: center;
+}
+
+.a-i-c {
+  align-items: center;
+}
+.j-c-s-b {
+  justify-content: space-between;
+}
+.t-a-c {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
