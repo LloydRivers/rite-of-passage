@@ -36,6 +36,7 @@
   border-radius: 5px;
   padding: 4em 1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 .hero-column span {
   display: block;
@@ -52,4 +53,98 @@
   color: rgba(66, 66, 66, 0.835);
   font-size: 1.3em;
   padding: 0 13px 0 0;
+}
+.needle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.tooth {
+  position: absolute;
+  bottom: 30px;
+  right: 130px;
+}
+.hero-btn {
+  color: #fff;
+  background-color: var(--blue);
+  padding: 8px 25px;
+  border: none;
+  font-size: 1.3em;
+  border-radius: 5px;
+  margin-top: 1.2em;
+}
+
+.btns-search {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  border: 10px;
+  height: 130px;
+}
+.btns-search img,
+.heart-icon img {
+  width: 30px;
+  margin-right: 8px;
+}
+.btns-search input {
+  display: block;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1em;
+}
+.card-centre {
+  padding: 1em;
+  border: 1px solid rgba(180, 179, 179, 0.329);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-img img,
+.card-centre-img img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.card-centre-img img {
+  object-position: top center;
+}
+.card-img-text * {
+  display: block;
+}
+.card-img-text button,
+.card-centre-lower-txt button {
+  font-size: 17px;
+  background-color: transparent;
+  padding: 8px 16px;
+  margin-top: 16px;
+  cursor: pointer;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+  border-radius: 6px;
+}
+.heart-icon {
+  position: relative;
+}
+.heart-icon img {
+  position: absolute;
+  left: -250px;
+}
+
+.card-centre-txt span {
+  display: block;
+}
+.card-centre-lower-txt span {
+  color: var(--orange);
+  margin-right: 8px;
+}
+.card-centre-lower-txt button {
+  margin: 0;
+}
+.card-centre {
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  bottom: -220px;
+  left: -150px;
 }
