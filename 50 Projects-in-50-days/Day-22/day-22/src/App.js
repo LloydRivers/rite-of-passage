@@ -1,18 +1,19 @@
 import "./styles/style.css";
 import "./styles/global.css";
 import "./styles/responsive.css";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
+import "./styles/form.css";
+import Home from "./components/Home";
+import Form from "./components/Form";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div className="glass"></div>
-      <div className="z-index">
-        <Nav />
-        <Hero />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/form" element={<Form />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Nav() {
+  const navigate = useNavigate();
+  const handleLogin = () => {
+    navigate("/form");
+  };
   return (
     <header className="flex j-c-s-b header a-i-c">
       <div className="nav-logo">
@@ -23,7 +28,7 @@ function Nav() {
         </li>
       </ul>
       <div className="nav-btn">
-        <button>Login</button>
+        <button onClick={handleLogin}>Login</button>
       </div>
     </header>
   );
