@@ -4,19 +4,24 @@
   .heart-icon {
     display: none;
   }
+
   .hero-column {
     flex-wrap: wrap;
   }
+
   .col-2 {
     grid-template-columns: repeat(1, 98%);
   }
+
   .btns-search-container {
     flex-wrap: wrap;
     text-align: center;
   }
+
   .card {
     margin: 2em 0;
   }
+
   .btns-search,
   .card {
     width: 100%;
