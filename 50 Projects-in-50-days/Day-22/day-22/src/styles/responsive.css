@@ -1,0 +1,45 @@
+@media only screen and (max-width: 481px) {
+  .header ul,
+  .tooth,
+  .heart-icon {
+    display: none;
+  }
+  .hero-column {
+    flex-wrap: wrap;
+  }
+  .col-2 {
+    grid-template-columns: repeat(1, 98%);
+  }
+  .btns-search-container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .card {
+    margin: 2em 0;
+  }
+  .btns-search,
+  .card {
+    width: 100%;
+  }
+  .card-centre {
+    position: static;
+    text-align: center;
+  }
+  .btns-search img,
+  .heart-icon img {
+    width: 50px;
+    margin-right: 8px;
+  }
+  .btns-search input {
+    width: 100%;
+  }
+  .card-img-text button {
+    display: inline-block;
+  }
+  .card-centre-lower-txt {
+    justify-content: center;
+  }
+  .card-centre-lower-txt button {
+    margin-top: 6px;
+  }
+}

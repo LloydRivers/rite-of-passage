@@ -1,5 +1,6 @@
 import "./styles/style.css";
 import "./styles/global.css";
+import "./styles/responsive.css";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 
