@@ -22,3 +22,4 @@ These are the projects I made, pair programming with a friend.
 | 19  |        Day 19: Blockchain.com        |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-19/index.html) |
 | 20  |        Day 20: OnChain Movies        |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-20/index.html) |
 | 21  |           Day 21: Mintable           |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-21/index.html) |
+| 22  |         Day 22: Medic/React          |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-22/index.html) |
