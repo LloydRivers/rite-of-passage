@@ -1,4 +1,4 @@
-<h2>This repo is home to a collection of projects that I am working on to further my development skills. Most projects have a live link that will take you to the full website, others will be code only projects. </h2>
+<h1>This repo is home to a collection of projects that I am working on to further my development skills. Most projects have a live link that will take you to the full website, others will be code only projects. </h1>
 
 | #   |               Projects               |                                                                                                         Live |
 | --- | :----------------------------------: | -----------------------------------------------------------------------------------------------------------: |
