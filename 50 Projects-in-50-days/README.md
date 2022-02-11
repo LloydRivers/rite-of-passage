@@ -1,4 +1,5 @@
-<h1>This repo is home to a collection of projects that I am working on to further my development skills. Most projects have a live link that will take you to the full website, others will be code only projects. </h1>
+<h1>The 50 Project Challenge</h1>
+<p>This repo is home to a collection of projects that I am working on to further my development skills. Most projects have a live link that will take you to the full website, others will be code only projects.</p>
 
 | #   |               Projects               |                                                                                                         Live |
 | --- | :----------------------------------: | -----------------------------------------------------------------------------------------------------------: |
