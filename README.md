@@ -1,4 +1,4 @@
-<h2>This is a collection of projects that I am working on to further my skills in full stack develpment. Each project has a live link that will take you to the full website. </h2>
+<h2>In the journey from a beginner to expert, there are projects and challenges that every student will have to overcome. This repo represents my journey.</h2>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

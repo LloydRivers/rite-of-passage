@@ -1,4 +1,4 @@
-These are the projects I made, pair programming with a friend.
+This repo is home to a collection of projects that I am working on to further my development skills. Most projects have a live link that will take you to the full website, others will be code only projects.
 
 | #   |               Projects               |                                                                                                         Live |
 | --- | :----------------------------------: | -----------------------------------------------------------------------------------------------------------: |
