@@ -24,4 +24,4 @@
 | 20  |        Day 20: OnChain Movies        |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-20/index.html) |
 | 21  |           Day 21: Mintable           |         [Web Live](https://lloydrivers.github.io/rite-of-passage/50%20Projects-in-50-days/Day-21/index.html) |
 | 22  |         Day 22: Medic/React          |                                                                                              React Code Only |
-| 23  |       Day 23: React Challenge        |                                                      [Web Live](https://https://rite-of-passage.vercel.app/) |
+| 23  |       Day 23: React Challenge        |                                                              [Web Live](https://rite-of-passage.vercel.app/) |
